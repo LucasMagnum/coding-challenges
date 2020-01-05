@@ -9,10 +9,14 @@ Answers will be implemented in many languages:
 
 #### Solutions
 
-1. Triple step.
+* Triple step
     [Python](./python/dynamic_programming/question_8_1.py)
-2. Robot in a grid.
+* Robot in a grid
     [Python](./python/dynamic_programming/question_8_2.py)
+* Magic Index
+    [Python](./python/dynamic_programming/question_8_3.py)
+* Power Set
+    [Python](./python/dynamic_programming/question_8_4.py)
 
 #### Examples
 
