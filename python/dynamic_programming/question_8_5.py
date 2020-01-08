@@ -14,7 +14,6 @@ def brute_force(a, b):
 
     return a + brute_force(a, b - 1)
 
-
 def doubling_sum(a, b):
     smaller, bigger = (a, b) if a < b else (b, a)
 

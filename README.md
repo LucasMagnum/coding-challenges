@@ -17,6 +17,14 @@ Answers will be implemented in many languages:
     [Python](./python/dynamic_programming/question_8_3.py)
 * Power Set
     [Python](./python/dynamic_programming/question_8_4.py)
+* Recursive Multiply
+    [Python](./python/dynamic_programming/question_8_5.py)
+* Towers of Hanoi
+    [Python](./python/dynamic_programming/question_8_6.py)
+* Permutations without duplicates
+    [Python](./python/dynamic_programming/question_8_7.py)
+* Permutations with duplicates
+    [Python](./python/dynamic_programming/question_8_8.py)
 
 #### Examples
 

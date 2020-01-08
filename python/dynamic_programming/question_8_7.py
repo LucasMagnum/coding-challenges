@@ -22,7 +22,5 @@ def recursive(string):
     
 
 if __name__ == "__main__":
-    string = "abcde"
-    print("Solution: ", recursive(string))
-
-    import itertools
+    string = "aaaaab"
+    print("Solution: ", len(recursive(string)))
