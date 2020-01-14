@@ -33,5 +33,5 @@ def build_permutations(frequency, prefix, remaining, result):
 
 
 if __name__ == "__main__":
-    string = "aaaaaaaaaab"
+    string = "abcd"
     print("Solution: ", recursive(string))
