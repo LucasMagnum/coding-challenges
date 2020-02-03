@@ -1,6 +1,6 @@
 """
 Magic Index:
-    A magic ubdex ub ab arrat A[0...N-1] is defined to be an index
+    A magic index is an array A[0...N-1] is defined to be an index
     such that A[i] == i.
 
     Given a sorted array of distinct integers, write a method to find 
@@ -18,6 +18,7 @@ def brute_force(array):
             return index
     return -1 
 
+
 def magic_fast_distinct(array, start, end):
     if end < start:
         return -1 
@@ -28,6 +29,7 @@ def magic_fast_distinct(array, start, end):
     
     start, end = (middle + 1, end) if middle > array[middle] else (start, middle - 1)
     return magic_fast_distinct(array, start, end)
+
 
 def magic_fast_not_distinct(array, start, end):
     if end < start:

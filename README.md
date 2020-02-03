@@ -6,23 +6,35 @@ This repository contains notes and solutions for interview questions.
 Answers will be implemented in many languages:
 
 ### Arrays/String
+
+#### Solutions
+
 * Is unique
-    [Python](./python/array_strings/question_1_1.py), [Go](./go/array_strings/question_1_1.go)
+    [Python](./python/arrays_strings/question_1_1.py), [Go](./golang/array_strings/question_1_1.go)
 * Check permutation
-    [Python](./python/array_strings/question_1_2.py)
+    [Python](./python/arrays_strings/question_1_2.py)
 * Palindrome Permutation
-    [Python](./python/array_strings/question_1_4.py)
+    [Python](./python/arrays_strings/question_1_4.py)
 * One Away
-    [Python](./python/array_strings/question_1_5.py)
+    [Python](./python/arrays_strings/question_1_5.py)
 * String compression
-    [Python](./python/array_strings/question_1_6.py)
+    [Python](./python/arrays_strings/question_1_6.py)
 * Zero matrix
-    [Python](./python/array_strings/question_1_8.py)
+    [Python](./python/arrays_strings/question_1_8.py)
 * String rotation
-    [Python](./python/array_strings/question_1_9.py)
+    [Python](./python/arrays_strings/question_1_9.py)
+
+
+#### Examples
+
+* Binary Search
+    [Python](./python/arrays_strings/examples/binary_search.py)
 
 
 ### Stacks and Queues
+
+#### Solutions
+
 * Three in one (TODO)
     [Python](./python/stacks_queues/question_3_1.py)
 * Stack min
@@ -31,6 +43,16 @@ Answers will be implemented in many languages:
     [Python](./python/stacks_queues/question_3_3.py)
 * Queue via stacks
     [Python](./python/stacks_queues/question_3_4.py)
+
+
+### Trees and Graphs
+
+#### Solutions
+
+* Route between nodes
+    [Python](./python/trees_graphs/question_4_1.py)
+* Minimal Tree
+    [Python](./python/trees_graphs/question_4_2.py)
 
 
 ### Dynamic Programming
@@ -63,6 +85,38 @@ Answers will be implemented in many languages:
     [Python](./python/dynamic_programming/question_8_12.py)
 * Stack of Boxes
     [Python](./python/dynamic_programming/question_8_13.py)
+* Boolean Evaluation
+    [Python](./python/dynamic_programming/question_8_14.py)
+
+
+### C and C++
+
+#### Solutions
+
+* Reverse String
+    [C](./c/c_cplus/question_12_2.c)
+
+
+### Moderate
+
+#### Solutions
+
+* English Int
+    [Python](./python/moderate/question_16_8.py)
+
+### Hard
+
+#### Solutions 
+
+* Add without Plus
+    [Python](./python/hard/question_17_1.py)
+* Shuffle
+    [Python](./python/hard/question_17_2.py)
+* Random Set
+    [Python](./python/hard/question_17_3.py)
+* Missing Number
+    [Python](./python/hard/question_17_4.py)
+
 
 #### Examples
 
