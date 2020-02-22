@@ -13,12 +13,16 @@ Answers will be implemented in many languages:
     [Python](./python/arrays_strings/question_1_1.py), [Go](./golang/array_strings/question_1_1.go)
 * Check permutation
     [Python](./python/arrays_strings/question_1_2.py)
+* URLify
+    [Python](./python/arrays_strings/question_1_3.py)
 * Palindrome Permutation
     [Python](./python/arrays_strings/question_1_4.py)
 * One Away
     [Python](./python/arrays_strings/question_1_5.py)
 * String compression
     [Python](./python/arrays_strings/question_1_6.py)
+* Rotate Matrix
+    [Python](./python/arrays_strings/question_1_7.py)
 * Zero matrix
     [Python](./python/arrays_strings/question_1_8.py)
 * String rotation
@@ -31,11 +35,39 @@ Answers will be implemented in many languages:
     [Python](./python/arrays_strings/examples/binary_search.py)
 
 
+### Linked Lists
+
+#### Solutions
+
+* Remove Dups
+    [Python](./python/linked_lists/question_2_1.py)
+* Return Kth to Last
+    [Python](./python/linked_lists/question_2_2.py)
+* Delete Middle Node
+    [Python](./python/linked_lists/question_2_3.py)
+* Partition
+    [Python](./python/linked_lists/question_2_4.py)
+* Sum lists
+    [Python](./python/linked_lists/question_2_5.py)
+* Palindrome
+    [Python](./python/linked_lists/question_2_6.py)
+* Intersection
+    [Python](./python/linked_lists/question_2_7.py)
+* Loop detector
+    [Python](./python/linked_lists/question_2_8.py)
+
+
+Examples:
+    fast, slow runner
+    reversing a list
+    running a list
+
+
 ### Stacks and Queues
 
 #### Solutions
 
-* Three in one (TODO)
+* Three in one
     [Python](./python/stacks_queues/question_3_1.py)
 * Stack min
     [Python](./python/stacks_queues/question_3_2.py)
@@ -53,7 +85,12 @@ Answers will be implemented in many languages:
     [Python](./python/trees_graphs/question_4_1.py)
 * Minimal Tree
     [Python](./python/trees_graphs/question_4_2.py)
-
+* List of Depths
+    [Python](./python/trees_graphs/question_4_3.py)
+* Check balanced
+    [Python](./python/trees_graphs/question_4_4.py)
+* Validate BST
+    [Python](./python/trees_graphs/question_4_5.py)
 
 ### Dynamic Programming
 
@@ -89,6 +126,17 @@ Answers will be implemented in many languages:
     [Python](./python/dynamic_programming/question_8_14.py)
 
 
+#### Examples
+
+* Fibonacci
+    [Python](./python/dynamic_programming/examples/fibonacci.py)
+* Fibonacci (Memoization/Top down)
+    [Python](./python/dynamic_programming/examples/fibonacci_memoization.py)
+* Fibonacci (Memoization/Bottom Up)
+    [Python](./python/dynamic_programming/examples/fibonacci_bottom_up.py)
+
+
+
 ### C and C++
 
 #### Solutions
@@ -106,7 +154,7 @@ Answers will be implemented in many languages:
 
 ### Hard
 
-#### Solutions 
+#### Solutions
 
 * Add without Plus
     [Python](./python/hard/question_17_1.py)
@@ -118,11 +166,31 @@ Answers will be implemented in many languages:
     [Python](./python/hard/question_17_4.py)
 
 
-#### Examples
+### Daily Interview Pro
 
-* Fibonacci
-    [Python](./python/dynamic_programming/examples/fibonacci.py)
-* Fibonacci (Memoization/Top down)
-    [Python](./python/dynamic_programming/examples/fibonacci_memoization.py)
-* Fibonacci (Memoization/Bottom Up)
-    [Python](./python/dynamic_programming/examples/fibonacci_bottom_up.py)
+#### Solutions
+
+* Add two numbers as a linked list
+    [Python](./python/daily_interview_pro/20200202.py)
+* Longest Substring Without Repeating Characters
+    [Python](./python/daily_interview_pro/20200203.py)
+* Longest Palindromic Substring
+    [Python](./python/daily_interview_pro/20200204.py)
+* Validate Balanced Parentheses
+    [Python](./python/daily_interview_pro/20200205.py)
+* First and Last Indices of an Element in a Sorted Array
+    [Python](./python/daily_interview_pro/20200206.py)
+* Reverse a Linked List
+    [Python](./python/daily_interview_pro/20200207.py)
+* Sorting a list with 3 unique numbers
+    [Python](./python/daily_interview_pro/20200208.py)
+* Two-Sum
+    [Python](./python/daily_interview_pro/20200209.py)
+* Find the non-duplicate number
+    [Python](./python/daily_interview_pro/20200210.py)
+* Non-decreasing Array with Single Modification
+    [Python](./python/daily_interview_pro/20200211.py)
+* Maximum In A Stack
+    [Python](./python/daily_interview_pro/20200214.py)
+* Find Pythagorean Triplets
+    [Python](./python/daily_interview_pro/20200216.py)
