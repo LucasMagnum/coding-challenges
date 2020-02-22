@@ -49,7 +49,6 @@ def fast_runner_solution(linked_list):
     return fast.val
 
 
-
 if __name__ == "__main__":
     with_loop = create_list(range(10, 1000000))
     no_loop = create_list([11, 12, 13, 14, 16, 17, 18, 19, 20])

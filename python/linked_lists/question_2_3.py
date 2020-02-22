@@ -33,6 +33,6 @@ if __name__ == "__main__":
         node.next = new_node
         node = new_node
 
-    print(f"Solution({linked_list}) ->", )
+    print(f"Solution({linked_list}) ->",)
     solution(selected_node)
     print(linked_list)

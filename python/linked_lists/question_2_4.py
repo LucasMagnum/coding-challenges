@@ -80,6 +80,7 @@ def create_list():
         node = new_node
     return linked_list
 
+
 if __name__ == "__main__":
 
     linked_list = create_list()
@@ -87,4 +88,3 @@ if __name__ == "__main__":
 
     linked_list = create_list()
     print(f"Solution({linked_list}) ->", not_stable_solution(linked_list, 5))
-

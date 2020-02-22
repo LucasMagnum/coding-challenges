@@ -114,13 +114,25 @@ if __name__ == "__main__":
     is_not_palindrome = create_list(["n", "o", "t", "p", "a", "l"])
 
     print(f"Solution({is_palindrome}) -> True ->", solution_with_list(is_palindrome))
-    print(f"Solution({is_not_palindrome}) -> False ->", solution_with_list(is_not_palindrome))
+    print(
+        f"Solution({is_not_palindrome}) -> False ->",
+        solution_with_list(is_not_palindrome),
+    )
 
     print(f"Solution({is_palindrome}) -> True ->", reverse_and_compare(is_palindrome))
-    print(f"Solution({is_not_palindrome}) -> False ->", reverse_and_compare(is_not_palindrome))
+    print(
+        f"Solution({is_not_palindrome}) -> False ->",
+        reverse_and_compare(is_not_palindrome),
+    )
 
     print(f"Solution({is_palindrome}) -> True ->", solution_with_stack(is_palindrome))
-    print(f"Solution({is_not_palindrome}) -> False ->", solution_with_stack(is_not_palindrome))
+    print(
+        f"Solution({is_not_palindrome}) -> False ->",
+        solution_with_stack(is_not_palindrome),
+    )
 
     print(f"Solution({is_palindrome}) -> True ->", recursive_solution(is_palindrome))
-    print(f"Solution({is_not_palindrome}) -> False ->", recursive_solution(is_not_palindrome))
+    print(
+        f"Solution({is_not_palindrome}) -> False ->",
+        recursive_solution(is_not_palindrome),
+    )

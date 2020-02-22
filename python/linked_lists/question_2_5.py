@@ -35,11 +35,9 @@ def backward_solution(first, second, carry=0):
     # Last digit of number
     result.val = value % 10
 
-    if (first is not None or second is not None):
+    if first is not None or second is not None:
         next_node = backward_solution(
-            first and first.next,
-            second and second.next,
-            1 if value >= 10 else 0
+            first and first.next, second and second.next, 1 if value >= 10 else 0
         )
         result.next = next_node
 
@@ -48,7 +46,6 @@ def backward_solution(first, second, carry=0):
 
 def forward_solution(first, second):
     pass
-
 
 
 if __name__ == "__main__":

@@ -13,7 +13,7 @@ def solution(head, kth):
         return 0
 
     index = solution(head.next, kth) + 1
-    if (index == kth):
+    if index == kth:
         print(f"{kth}th to last node is ", head.val)
     return index
 
@@ -32,7 +32,7 @@ def node_solution(head, kth):
         node = wrapp_func(head.next, kth)
         index = index + 1
 
-        if (index == kth):
+        if index == kth:
             return head
 
         return node
@@ -53,7 +53,7 @@ def iterative_solution(head, kth):
 
     # Move both at same pace, when runner hits the end
     # current will be the answer
-    while (runner is not None):
+    while runner is not None:
         runner = runner.next
         current = current.next
 

@@ -43,7 +43,7 @@ def count_and_compare_solution(first, second):
     longer = _get_kth_node(longer, abs(first_size - second_size))
 
     # Move both pointer until collision
-    while (shorter != longer):
+    while shorter != longer:
         shorter = shorter.next
         longer = longer.next
 
