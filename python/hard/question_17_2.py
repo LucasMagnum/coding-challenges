@@ -17,7 +17,7 @@ def solution(deck: List[int]) -> List[int]:
 def recursive(deck: List[int], index: int) -> List[int]:
     if index == 0:
         return deck
-    
+
     recursive(deck, index - 1)
     new_position = random.randint(0, index + 1)
     deck[index], deck[new_position] = deck[new_position], deck[index]

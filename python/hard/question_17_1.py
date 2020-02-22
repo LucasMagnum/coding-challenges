@@ -11,7 +11,7 @@ import sys
 def recursive_solution(a: int, b: int) -> int:
     if b == 0:
         return a
-    
+
     total = a ^ b
     carry = (a & b) << 1
 
@@ -19,7 +19,7 @@ def recursive_solution(a: int, b: int) -> int:
 
 
 def iterative_solution(a: int, b: int) -> int:
-    while (b != 0):
+    while b != 0:
         a, b = a ^ b, (a & b) << 1
     return a
 

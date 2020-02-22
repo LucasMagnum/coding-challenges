@@ -9,16 +9,16 @@ from typing import List
 
 def solution(array: List[int], total: int) -> List[int]:
     if total > len(array):
-        return 
-    
+        return
+
     subset = array[:total]
 
     for index in range(total, len(array) - 1):
         random_position = random.randint(0, index + 1)
-        
+
         if random_position < total:
             subset[random_position] = array[index]
-    
+
     return subset
 
 

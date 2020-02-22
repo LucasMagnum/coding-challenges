@@ -11,9 +11,9 @@ Missing Number:
 
 def solution(array, column):
     # Fixed value here for this case
-    if column >= 32:   
+    if column >= 32:
         return 0
-    
+
     one_bits = []
     zero_bits = []
 
@@ -29,7 +29,6 @@ def solution(array, column):
     else:
         v = solution(one_bits, column + 1)
         return (v << 1) | 1
-
 
 
 if __name__ == "__main__":
