@@ -62,7 +62,7 @@ node3.next = testTail
 print("Initial list: ")
 testHead.print()
 # 4 3 2 1 0
-#testHead.reverse_iteratively(testHead)
+# testHead.reverse_iteratively(testHead)
 testHead.reverse_recursively(testHead)
 
 print("List after reversal: ")
