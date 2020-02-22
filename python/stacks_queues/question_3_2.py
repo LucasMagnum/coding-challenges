@@ -5,6 +5,7 @@ Stack min   :
     Push, pop and min should all operate in 0(1) time. 
 """
 
+
 class Stack:
     """
     This implementation keeps track at the min value each time
@@ -12,6 +13,7 @@ class Stack:
 
     This can be inefficient when having a large stack.
     """
+
     def __init__(self):
         self._data = []
         self.min_value = float("inf")
@@ -33,6 +35,7 @@ class StackWithMin:
     """
     This stack uses another stack to keep track of its values.
     """
+
     def __init__(self):
         self._data = []
         self._min_values = []
@@ -50,6 +53,7 @@ class StackWithMin:
 
     def min(self):
         return self._min_values[-1]
+
 
 if __name__ == "__main__":
     stacks = [Stack, StackWithMin]

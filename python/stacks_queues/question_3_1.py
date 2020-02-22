@@ -3,6 +3,7 @@ Three in One:
     Describe how you could use a single array to implement three stacks.
 """
 
+
 class Stack:
     def __init__(self, array, start, end):
         self.array = array
@@ -61,5 +62,5 @@ def solution(array):
 
 
 if __name__ == "__main__":
-    array = [None] *  30
+    array = [None] * 30
     print("Solution: ", solution(array))

@@ -11,6 +11,7 @@
     Implement a function popAt (in t index ) which performs a pop operation on a specific substack
 """
 
+
 class SetOfStacks:
     def __init__(self, max_size):
         self.max_size = max_size
@@ -31,6 +32,7 @@ class SetOfStacks:
 
     def __len__(self):
         return sum([len(stack) for stack in self.stacks])
+
 
 if __name__ == "__main__":
     stack = SetOfStacks(max_size=25)

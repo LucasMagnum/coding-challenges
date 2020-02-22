@@ -3,6 +3,7 @@ Queue via Stacks:
     Implement a MyQueue class which implements a queue using two stacks.
 """
 
+
 class Stack:
     def __init__(self):
         self._data = []
