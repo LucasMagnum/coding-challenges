@@ -20,7 +20,7 @@ def find_connection_bfs(graph, start, end):
             if adjacent_node == end:
                 return True
 
-            if adjacent_node not in seen:
+            if adjacent_node:
                 queue.append(adjacent_node)
 
         seen.add(node)
