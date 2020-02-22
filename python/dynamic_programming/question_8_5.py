@@ -5,6 +5,7 @@
         you should minimize the number of those operations.
 """
 
+
 def brute_force(a, b):
     if a == 0 or b == 0:
         return 0
@@ -14,12 +15,15 @@ def brute_force(a, b):
 
     return a + brute_force(a, b - 1)
 
+
 def doubling_sum(a, b):
     smaller, bigger = (a, b) if a < b else (b, a)
 
     def _multiply(smaller, bigger):
-        if smaller == 0: return 0
-        if smaller == 1: return bigger
+        if smaller == 0:
+            return 0
+        if smaller == 1:
+            return bigger
 
         smaller_divided = smaller >> 1
         left_side = _multiply(smaller_divided, bigger)
@@ -32,6 +36,7 @@ def doubling_sum(a, b):
 
     return _multiply(smaller, bigger)
 
+
 def doubling_sum_cached(a, b):
     smaller, bigger = (a, b) if a < b else (b, a)
 
@@ -39,8 +44,10 @@ def doubling_sum_cached(a, b):
         if cache is None:
             cache = {}
 
-        if smaller == 0: return 0
-        if smaller == 1: return bigger
+        if smaller == 0:
+            return 0
+        if smaller == 1:
+            return bigger
 
         if cache.get(smaller):
             return cache[smaller]
@@ -57,6 +64,7 @@ def doubling_sum_cached(a, b):
         return sides_sum
 
     return _multiply(smaller, bigger)
+
 
 if __name__ == "__main__":
     a, b = (1604, 800)  # 800 iterations

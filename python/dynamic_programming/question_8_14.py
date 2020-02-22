@@ -33,9 +33,9 @@ def count_evaluation(expression: str, result: bool, cache: dict) -> int:
         character = expression[i]
 
         left = expression[:i]
-        right = expression[i + 1:]
+        right = expression[i + 1 :]
 
-        # Evaluate each side for each result 
+        # Evaluate each side for each result
         left_true = count_evaluation(left, True, cache)
         left_false = count_evaluation(left, False, cache)
 
@@ -46,19 +46,19 @@ def count_evaluation(expression: str, result: bool, cache: dict) -> int:
 
         total_true = 0
         # XOR -> 1 True and 1 False
-        if (character == "^"):
+        if character == "^":
             total_true = (left_true * right_false) + (left_false * right_true)
-        
+
         # AND -> both true
-        elif (character == "&"):
-            total_true = (left_true * right_true)
-        
+        elif character == "&":
+            total_true = left_true * right_true
+
         # OR -> anything but both false
-        elif (character == "|"):
+        elif character == "|":
             total_true = (
-                (left_true * right_true) + 
-                (left_false * right_true) + 
-                (left_true * right_false)
+                (left_true * right_true)
+                + (left_false * right_true)
+                + (left_true * right_false)
             )
 
         sub_ways = total_true if result is True else total - total_true

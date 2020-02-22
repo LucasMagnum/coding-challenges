@@ -8,7 +8,7 @@ import sys
 
 def brute_force(n):
     parens = set()
-    
+
     if n == 0:
         parens.add("")
     else:
@@ -16,9 +16,9 @@ def brute_force(n):
         for string in previous:
             for index in range(len(string)):
                 if string[index] == "(" or string[index] == ")":
-                    parens.add(string[:index + 1] + "()" + string[index + 1:])
+                    parens.add(string[: index + 1] + "()" + string[index + 1 :])
         parens.add("()" + string)
-    
+
     return parens
 
 
@@ -27,9 +27,9 @@ def recursive(n):
     string = " " * n * 2
 
     def _build_string(left_remaining, right_remaining, string, index):
-        if left_remaining < 0 or right_remaining < left_remaining: 
+        if left_remaining < 0 or right_remaining < left_remaining:
             return
-        
+
         if left_remaining == 0 and right_remaining == 0:
             solutions.append("".join(string))
         else:

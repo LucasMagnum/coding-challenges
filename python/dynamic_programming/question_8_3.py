@@ -16,17 +16,17 @@ def brute_force(array):
     for index, value in enumerate(array):
         if index == value:
             return index
-    return -1 
+    return -1
 
 
 def magic_fast_distinct(array, start, end):
     if end < start:
-        return -1 
-    
+        return -1
+
     middle = (end + start) // 2
     if array[middle] == middle:
         return middle
-    
+
     start, end = (middle + 1, end) if middle > array[middle] else (start, middle - 1)
     return magic_fast_distinct(array, start, end)
 
@@ -34,7 +34,7 @@ def magic_fast_distinct(array, start, end):
 def magic_fast_not_distinct(array, start, end):
     if end < start:
         return -1
-    
+
     middle = (end + start) // 2
     middle_value = array[middle]
     if middle_value == middle:
@@ -44,18 +44,19 @@ def magic_fast_not_distinct(array, start, end):
     left = magic_fast_not_distinct(array, start, left_index)
     if left >= 0:
         return left
-    
+
     right_index = max([middle + 1, middle_value])
     right = magic_fast_not_distinct(array, right_index, end)
 
     return right
-    
+
 
 if __name__ == "__main__":
     import time
+
     N = int(sys.argv[1])
 
-    array = [random.randint(-N//4, N) for _ in range(0, N)]
+    array = [random.randint(-N // 4, N) for _ in range(0, N)]
     array = sorted(array)
 
     start = time.time()

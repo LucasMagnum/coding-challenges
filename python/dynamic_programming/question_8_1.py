@@ -7,34 +7,35 @@ Triple Step:
 """
 import sys
 
+
 def solution(n):
     if n < 0:
         return 0
     elif n == 0:
         return 1
-    
+
     return solution(n - 1) + solution(n - 2) + solution(n - 3)
-    
+
 
 def memoized_solution(n, cache=None):
     if cache is None:
         cache = {}
-    
+
     if n < 0:
         return 0
-    
+
     if n == 0:
         return 1
-    
+
     elif cache.get(n):
         return cache[n]
-    
+
     cache[n] = (
-        memoized_solution(n - 1, cache) + 
-        memoized_solution(n - 2, cache) + 
-        memoized_solution(n - 3, cache)
+        memoized_solution(n - 1, cache)
+        + memoized_solution(n - 2, cache)
+        + memoized_solution(n - 3, cache)
     )
-    return cache[n]        
+    return cache[n]
 
 
 if __name__ == "__main__":

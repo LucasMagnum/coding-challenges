@@ -25,11 +25,11 @@ def check_valid(columns, row, column):
     while current_row < row:
         current_column = columns[current_row]
 
-        # Check if current column and current row invalidates 
+        # Check if current column and current row invalidates
         # row and column
         if column == current_column:
             return False
-        
+
         column_distance = abs(current_column - column)
         row_distance = row - current_row
 
@@ -37,7 +37,7 @@ def check_valid(columns, row, column):
             return False
 
         current_row += 1
-    return True    
+    return True
 
 
 if __name__ == "__main__":

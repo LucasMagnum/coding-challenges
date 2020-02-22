@@ -12,20 +12,22 @@ def recursive(string):
     build_permutations(frequency, "", len(string), result)
     return result
 
+
 def get_characters_frequency(string):
     counter = {}
     for character in string:
         counter[character] = counter.get(character, 0) + 1
     return counter
 
+
 def build_permutations(frequency, prefix, remaining, result):
     # Base case. Permutation has been completed
     if remaining == 0:
         result.append(prefix)
         return
-    
-    # Try remaining letters for next char and generate remaining permutations 
-    for character, count in frequency.items():    
+
+    # Try remaining letters for next char and generate remaining permutations
+    for character, count in frequency.items():
         if count > 0:
             frequency[character] -= 1
             build_permutations(frequency, prefix + character, remaining - 1, result)

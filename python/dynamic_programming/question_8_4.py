@@ -11,6 +11,7 @@ Ex:
 import time
 import sys
 
+
 def iterative(powerset):
     sets = [[]]
 
@@ -20,18 +21,20 @@ def iterative(powerset):
 
     return sets
 
+
 def recursive(powerset, index):
     if len(powerset) == index:
         return [[]]
-    
+
     subsets = recursive(powerset, index + 1)
     new_subsets = [[powerset[index]] + subset for subset in subsets]
     subsets.extend(new_subsets)
 
     return subsets
 
+
 def binary(powerset):
-    subset_size = 1 << len(powerset)  # Compute 2^n 
+    subset_size = 1 << len(powerset)  # Compute 2^n
 
     subsets = []
 
@@ -40,6 +43,7 @@ def binary(powerset):
         subsets.append(subset)
 
     return subsets
+
 
 def convert_to_subset(index, powerset):
     subset = []

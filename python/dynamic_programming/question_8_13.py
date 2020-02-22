@@ -27,7 +27,7 @@ def calculate_height(boxes, bottom_index):
     bottom_box = boxes[bottom_index]
     max_height = 0
 
-    for index, box in enumerate(boxes[bottom_index + 1:], bottom_index + 1):
+    for index, box in enumerate(boxes[bottom_index + 1 :], bottom_index + 1):
         if can_be_above(box, bottom_box):
             height = calculate_height(boxes, index)
             max_height = max([max_height, height])
@@ -57,7 +57,7 @@ def calculate_height_cache(boxes, bottom_index, cache):
     bottom_box = boxes[bottom_index]
     max_height = 0
 
-    for index, box in enumerate(boxes[bottom_index + 1:], bottom_index + 1):
+    for index, box in enumerate(boxes[bottom_index + 1 :], bottom_index + 1):
         if can_be_above(box, bottom_box):
             height = calculate_height_cache(boxes, index, cache)
             max_height = max([max_height, height])
@@ -76,13 +76,15 @@ def choice_algorithm(boxes):
 def get_maximium_height(boxes, bottom_box, box_index, cache):
     if box_index >= len(boxes):
         return 0
-    
+
     new_bottom = boxes[box_index]
     height_with_bottom = 0
 
     if bottom_box is None or can_be_above(new_bottom, bottom_box):
         if cache.get(box_index, 0) == 0:
-            cache[box_index] = get_maximium_height(boxes, new_bottom, box_index + 1, cache) 
+            cache[box_index] = get_maximium_height(
+                boxes, new_bottom, box_index + 1, cache
+            )
             cache[box_index] += new_bottom["height"]
         height_with_bottom = cache[box_index]
 
@@ -97,7 +99,7 @@ def can_be_above(box, bottom_box):
     conditions = [
         box["width"] > bottom_box["width"],
         box["height"] > bottom_box["height"],
-        box["depth"] > bottom_box["depth"]
+        box["depth"] > bottom_box["depth"],
     ]
 
     return all(conditions)

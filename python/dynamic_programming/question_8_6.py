@@ -26,14 +26,15 @@ class Tower:
     def move_to_top(self, tower):
         top = self.disks.pop()
         tower.add(top)
-    
+
     def move_disks(self, quantity, destination, buffer):
-        if quantity <= 0: 
+        if quantity <= 0:
             return
 
         self.move_disks(quantity - 1, buffer, destination)
         self.move_to_top(destination)
         buffer.move_disks(quantity - 1, destination, self)
+
 
 if __name__ == "__main__":
     try:
@@ -48,5 +49,3 @@ if __name__ == "__main__":
     print("Towers in: ", [tower_01.disks, tower_02.disks, tower_03.disks])
     tower_01.move_disks(len(tower_01.disks), tower_03, tower_02)
     print("Towers out: ", [tower_01.disks, tower_02.disks, tower_03.disks])
-
-

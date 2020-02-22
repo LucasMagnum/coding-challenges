@@ -4,6 +4,7 @@ Implementation of nth Fibonacci Number ussing a Bottom-Up approach.
 
 import sys
 
+
 def fibonacci(n):
     if n == 0:
         return 0
@@ -14,7 +15,6 @@ def fibonacci(n):
         a, b = b, a + b
 
     return a + b
-
 
 
 if __name__ == "__main__":
