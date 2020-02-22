@@ -12,7 +12,7 @@ def solution(first: str, second: str) -> True:
         return False
 
     composed_string = "".join([first, first])
-    return composed_string.find(second) != -1     
+    return composed_string.find(second) != -1
 
 
 if __name__ == "__main__":

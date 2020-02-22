@@ -18,7 +18,7 @@ def solution(string: str) -> bool:
             continue
 
         counter[character] = counter.get(character, 0) + 1
-    
+
     odd_count = 0
 
     for character, count in counter.items():

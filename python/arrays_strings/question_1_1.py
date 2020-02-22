@@ -11,7 +11,7 @@ def brute_force_solution(string):
     Check each character with all the remaining ones.
     """
     for index, character in enumerate(string):
-        for another_character in string[index + 1:]:
+        for another_character in string[index + 1 :]:
             if character == another_character:
                 return False
     return True
@@ -39,7 +39,7 @@ def bit_array_solution(string):
         value = ord(character) - ord("a")
         if checker & (1 << value) > 0:
             return False
-        checker |= (1 << value)
+        checker |= 1 << value
     return True
 
 

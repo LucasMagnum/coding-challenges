@@ -26,11 +26,11 @@ def solution(first: str, second: str) -> bool:
                 first_index += 1
         else:
             first_index += 1
-        
+
         second_index += 1
 
-
     return True
+
 
 if __name__ == "__main__":
     try:

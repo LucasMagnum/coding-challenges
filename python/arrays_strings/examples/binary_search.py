@@ -4,7 +4,7 @@ import sys
 def binary_search(array, item, start, end):
     if end < start:
         return -1
-    
+
     mid = (start + end) // 2
 
     if item == array[mid]:
@@ -26,7 +26,7 @@ def binary_search_iterative(array, item):
 
         start, end = (mid + 1, end) if item > array[mid] else (start, mid - 1)
 
-    return -1 
+    return -1
 
 
 if __name__ == "__main__":

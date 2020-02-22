@@ -9,7 +9,7 @@ from typing import List
 def solution(matrix: List[List[int]]) -> List[List[int]]:
     marked_rows = set()
     marked_columns = set()
-    
+
     for row_index, row in enumerate(matrix):
         for column_index, column in enumerate(row):
             if column == 0:
@@ -22,16 +22,11 @@ def solution(matrix: List[List[int]]) -> List[List[int]]:
     for column_index in marked_columns:
         for row_index, _ in enumerate(matrix):
             matrix[row_index][column_index] = 0
-    
+
     return matrix
 
 
 if __name__ == "__main__":
-    matrix = [
-        [1, 2, 3, 4, 0],
-        [6, 7, 8, 9, 2],
-        [3, 4, 0, 6, 7],
-        [1, 5, 3, 2, 1]
-    ]
+    matrix = [[1, 2, 3, 4, 0], [6, 7, 8, 9, 2], [3, 4, 0, 6, 7], [1, 5, 3, 2, 1]]
 
     print("Solution: ", solution(matrix))
