@@ -1,15 +1,15 @@
 """
-Queue via Stacks: 
-    Implement a MyQueue class which implements a queue using two stacks. 
+Queue via Stacks:
+    Implement a MyQueue class which implements a queue using two stacks.
 """
 
 class Stack:
     def __init__(self):
         self._data = []
-    
+
     def push(self, item):
         self._data.append(item)
-    
+
     def pop(self):
         return self._data.pop()
 
@@ -21,7 +21,7 @@ class Queue:
     def __init__(self):
         self.stack_01 = Stack()
         self.stack_02 = Stack()
-    
+
     def enqueue(self, item):
         self.stack_01.push(item)
 
