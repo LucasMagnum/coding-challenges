@@ -24,7 +24,7 @@ def find_connection_bfs(graph, start, end):
                 queue.append(adjacent_node)
 
         seen.add(node)
-        
+
     return False
 
 
@@ -34,13 +34,13 @@ def find_connection_dfs(graph, start, end, seen=None):
 
     if start == end:
         return True
-    
+
     seen.add(start)
 
     for node in graph[start]:
         if node in seen:
             continue
-        
+
         if find_connection_dfs(graph, node, end, seen):
             return True
 
@@ -48,15 +48,14 @@ def find_connection_dfs(graph, start, end, seen=None):
 
 
 if __name__ == "__main__":
-    graph = [
-        [1, 4, 5],
-        [3, 4],
-        [1],
-        [2, 4],
-        [],
-        []
-    ]
+    graph = [[1, 4, 5], [3, 4], [1], [2, 4], [], []]
     first_node, second_node = 0, 2
-    
-    print(f"find_connection_bfs({first_node}, {second_node}) -> ", find_connection_bfs(graph, first_node, second_node))
-    print(f"find_connection_dfs({first_node}, {second_node}) -> ", find_connection_dfs(graph, first_node, second_node))
+
+    print(
+        f"find_connection_bfs({first_node}, {second_node}) -> ",
+        find_connection_bfs(graph, first_node, second_node),
+    )
+    print(
+        f"find_connection_dfs({first_node}, {second_node}) -> ",
+        find_connection_dfs(graph, first_node, second_node),
+    )

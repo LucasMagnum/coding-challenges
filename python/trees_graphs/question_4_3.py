@@ -13,7 +13,7 @@ class TreeNode:
         self.left = left
         self.right = left
 
-    def __str__(self):  
+    def __str__(self):
         return f"{self.value}"
 
 
@@ -49,10 +49,10 @@ def bfs_solution(tree: TreeNode) -> List[TreeNode]:
         current = []
 
         for node in previous:
-            if (node.left):
+            if node.left:
                 current.append(node.left)
 
-            if (node.right):
+            if node.right:
                 current.append(node.right)
 
     return lists

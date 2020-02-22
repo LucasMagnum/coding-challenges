@@ -14,7 +14,7 @@ class TreeNode:
         self.left = left
         self.right = left
 
-    def __str__(self):  
+    def __str__(self):
         return f"{self.value}"
 
 
@@ -24,7 +24,7 @@ def check_balanced(tree):
 
 def check_height(node):
     if not node:
-        return -1 
+        return -1
 
     sentinel_value = float("-inf")
 
@@ -39,7 +39,7 @@ def check_height(node):
     if abs(left_height - right_height) > 1:
         return sentinel_value
 
-    return max(left_height, right_height) + 1       
+    return max(left_height, right_height) + 1
 
 
 def build_tree(array, start, end, unbalanced=True):

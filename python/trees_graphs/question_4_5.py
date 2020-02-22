@@ -11,7 +11,7 @@ class TreeNode:
         self.left = left
         self.right = left
 
-    def __str__(self):  
+    def __str__(self):
         return f"{self.value}"
 
 
@@ -39,19 +39,20 @@ def is_bst_copying_solution(tree, array=None, index=0):
 def is_bst_recursive_solution(tree, min_value=None, max_value=None):
     if not tree:
         return True
-    
+
     if (
-        min_value is not None and tree.value <= min_value or
-        max_value is not None and tree.value > max_value
+        min_value is not None
+        and tree.value <= min_value
+        or max_value is not None
+        and tree.value > max_value
     ):
         return False
-    
-    if (
-        not is_bst_recursive_solution(tree.left, min_value, tree.value) or
-        not is_bst_recursive_solution(tree.right, tree.value, max_value)
-    ):
+
+    if not is_bst_recursive_solution(
+        tree.left, min_value, tree.value
+    ) or not is_bst_recursive_solution(tree.right, tree.value, max_value):
         return False
-    
+
     return True
 
 
