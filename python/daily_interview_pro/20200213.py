@@ -48,11 +48,11 @@ def solution(node):
 
 
 if __name__ == "__main__":
-    root = Node('a')
-    root.left = Node('b')
-    root.right = Node('c')
-    root.left.left = Node('d')
-    root.left.right = Node('e')
-    root.right.left = Node('f')
+    root = Node("a")
+    root.left = Node("b")
+    root.right = Node("c")
+    root.left.left = Node("d")
+    root.left.right = Node("e")
+    root.right.left = Node("f")
 
     print(f"Solution({root.preorder()} ->", solution(root))

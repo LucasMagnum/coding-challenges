@@ -37,4 +37,3 @@ if __name__ == "__main__":
     root.right.right = Node(14)
 
     print(f"Solution({root}) -> ", solution(root, 5))
-

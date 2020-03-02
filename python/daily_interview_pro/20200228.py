@@ -50,11 +50,6 @@ def solution(courses):
     return result
 
 
-
 if __name__ == "__main__":
-    courses = {
-        'CSC300': ['CSC100', 'CSC200'],
-        'CSC200': ['CSC100'],
-        'CSC100': []
-    }
+    courses = {"CSC300": ["CSC100", "CSC200"], "CSC200": ["CSC100"], "CSC100": []}
     print(f"Solution({courses}) ->", solution(courses))
