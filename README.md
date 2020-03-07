@@ -75,6 +75,10 @@ Examples:
     [Python](./python/stacks_queues/question_3_3.py)
 * Queue via stacks
     [Python](./python/stacks_queues/question_3_4.py)
+* Sort Stack
+    [Python](./python/stacks_queues/question_3_5.py)
+* Animal Shelter
+    [Python](./python/stacks_queues/question_3_4.py)
 
 
 ### Trees and Graphs
