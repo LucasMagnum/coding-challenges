@@ -190,7 +190,51 @@ Examples:
     [Python](./python/daily_interview_pro/20200210.py)
 * Non-decreasing Array with Single Modification
     [Python](./python/daily_interview_pro/20200211.py)
+* Floor and Ceiling of a Binary Search Tree
+    [Python](./python/daily_interview_pro/20200212.py)
+* Invert binary tree
+    [Python](./python/daily_interview_pro/20200213.py)
 * Maximum In A Stack
     [Python](./python/daily_interview_pro/20200214.py)
+* Number of Ways to Climb Stairs
+    [Python](./python/daily_interview_pro/20200215.py)
 * Find Pythagorean Triplets
     [Python](./python/daily_interview_pro/20200216.py)
+* Edit Distance
+    [Python](./python/daily_interview_pro/20200217.py)
+* Create a Simple Calculator
+    [Python](./python/daily_interview_pro/20200218.py)
+* Find Cycles in a Graph
+    [Python](./python/daily_interview_pro/20200219.py)
+* Word Search
+    [Python](./python/daily_interview_pro/20200220.py)
+* Minimum Size Subarray Sum
+    [Python](./python/daily_interview_pro/20200221.py)
+* Ways to Traverse a Grid
+    [Python](./python/daily_interview_pro/20200222.py)
+* Intersection of Linked Lists
+    [Python](./python/daily_interview_pro/20200223.py)
+* Falling Dominoes
+    [Python](./python/daily_interview_pro/20200224.py)
+* Remove Consecutive Nodes that Sum to 0
+    [Python](./python/daily_interview_pro/20200225.py)
+* Remove k-th Last Element From Linked List
+    [Python](./python/daily_interview_pro/20200226.py)
+* Witness of The Tall People
+    [Python](./python/daily_interview_pro/20200227.py)
+* Course Prerequisites
+    [Python](./python/daily_interview_pro/20200228.py)
+* Move Zeros
+    [Python](./python/daily_interview_pro/20200201.py)
+* Find the k-th Largest Element in a List
+    [Python](./python/daily_interview_pro/20200302.py)
+* Spiral Traversal of Grid
+    [Python](./python/daily_interview_pro/20200303.py)
+* Largest Product of 3 Elements
+    [Python](./python/daily_interview_pro/20200304.py)
+* Merge Overlapping Intervals
+    [Python](./python/daily_interview_pro/20200305.py)
+* Maximum Profit From Stocks
+    [Python](./python/daily_interview_pro/20200306.py)
+* Queue Using Two Stacks
+    [Python](./python/daily_interview_pro/20200307.py)
