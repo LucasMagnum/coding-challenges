@@ -7,15 +7,7 @@ Check balanced
 import random
 from typing import List
 
-
-class TreeNode:
-    def __init__(self, value, left=None, right=None):
-        self.value = value
-        self.left = left
-        self.right = left
-
-    def __str__(self):
-        return f"{self.value}"
+from data import TreeNode
 
 
 def check_balanced(tree):

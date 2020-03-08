@@ -5,16 +5,7 @@ List of Depths:
     at each depth (e.g., if you have a tree with depth D, you'll have D linked lists.)
 """
 from typing import List
-
-
-class TreeNode:
-    def __init__(self, value, left=None, right=None):
-        self.value = value
-        self.left = left
-        self.right = left
-
-    def __str__(self):
-        return f"{self.value}"
+from data import TreeNode, build_tree
 
 
 def dfs_solution(tree: TreeNode, depth=0, lists=None) -> List[TreeNode]:
@@ -56,19 +47,6 @@ def bfs_solution(tree: TreeNode) -> List[TreeNode]:
                 current.append(node.right)
 
     return lists
-
-
-def build_tree(array, start, end):
-    if end < start:
-        return
-
-    mid = (start + end) // 2
-
-    node = TreeNode(array[mid])
-    node.left = build_tree(array, start, mid - 1)
-    node.right = build_tree(array, mid + 1, end)
-
-    return node
 
 
 if __name__ == "__main__":

@@ -1,8 +1,9 @@
 """
 Minimal Tree:
-    Given a sorted (increasing order) array with unique integer elements, 
+    Given a sorted (increasing order) array with unique integer elements,
     write an algorithm to create a binary search tree with minimal height.
 """
+from data import TreeNode
 
 
 def dfs(node):
@@ -12,16 +13,6 @@ def dfs(node):
     dfs(node.left)
     print(node, end=", ")
     dfs(node.right)
-
-
-class TreeNode:
-    def __init__(self, value, left=None, right=None):
-        self.value = value
-        self.left = left
-        self.right = left
-
-    def __str__(self):
-        return f"{self.value}"
 
 
 def minimal_tree(array, start, end):
