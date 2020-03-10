@@ -33,7 +33,7 @@ class Dog(Animal):
 @dataclass
 class Node:
     value: str
-    next: 'Node'
+    next: "Node"
 
 
 class AnimalShelter:

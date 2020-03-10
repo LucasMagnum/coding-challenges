@@ -20,7 +20,7 @@ def brute_force(array):
 
     for i in range(len(array)):
         for j in range(i, len(array) + 1):
-            max_sum = max(max_sum, sum(array[i: j]))
+            max_sum = max(max_sum, sum(array[i:j]))
 
     return max_sum
 

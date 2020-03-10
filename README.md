@@ -97,7 +97,10 @@ Examples:
     [Python](./python/trees_graphs/question_4_5.py)
 * Sucessor
     [Python](./python/trees_graphs/question_4_6.py)
-
+* Build Order
+    [Python](./python/trees_graphs/question_4_7.py)
+* First Common Ancestor
+    [Python](./python/trees_graphs/question_4_8.py)
 
 ### Dynamic Programming
 
@@ -247,3 +250,7 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200307.py)
 * Contiguous Subarray with Maximum Sum
     [Python](./python/daily_interview_pro/202003/20200308.py)
+* Merge K Sorted Linked Lists
+    [Python](./python/daily_interview_pro/202003/20200309.py)
+* Create a balanced binary search tree
+    [Python](./python/daily_interview_pro/202003/20200309.py)

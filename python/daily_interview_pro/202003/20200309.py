@@ -1,4 +1,6 @@
 """
+Merge K Sorted Linked Lists
+
 This problem was recently asked by Twitter:
 
 You are given an array of k sorted singly linked lists. Merge the linked lists into a single sorted linked list and return it.
@@ -41,7 +43,9 @@ def merge(lists):
     new_head = current = Node(-1)
 
     while any(lst is not None for lst in lists):
-        current_min, i = min((lst.val, i) for i, lst in enumerate(lists) if lst is not None)
+        current_min, i = min(
+            (lst.val, i) for i, lst in enumerate(lists) if lst is not None
+        )
         lists[i] = lists[i].next
         current.next = Node(current_min)
         current = current.next
