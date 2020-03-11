@@ -254,5 +254,9 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200308.py)
 * Merge K Sorted Linked Lists
     [Python](./python/daily_interview_pro/202003/20200309.py)
-* Create a balanced binary search tree
+* Merge K Sorted Linked Lists
     [Python](./python/daily_interview_pro/202003/20200309.py)
+* Create a balanced binary search tree
+    [Python](./python/daily_interview_pro/202003/20200310.py)
+* Trapping Rainwater
+    [Python](./python/daily_interview_pro/202003/20200311.py)
