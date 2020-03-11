@@ -101,6 +101,8 @@ Examples:
     [Python](./python/trees_graphs/question_4_7.py)
 * First Common Ancestor
     [Python](./python/trees_graphs/question_4_8.py)
+* BST Sequences
+    [Python](./python/trees_graphs/question_4_9.py)
 
 ### Dynamic Programming
 
