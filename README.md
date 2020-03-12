@@ -260,3 +260,5 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200310.py)
 * Trapping Rainwater
     [Python](./python/daily_interview_pro/202003/20200311.py)
+* Buddy Strings
+    [Python](./python/daily_interview_pro/202003/20200312.py)
