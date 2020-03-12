@@ -103,6 +103,10 @@ Examples:
     [Python](./python/trees_graphs/question_4_8.py)
 * BST Sequences
     [Python](./python/trees_graphs/question_4_9.py)
+* Check subtree
+    [Python](./python/trees_graphs/question_4_10.py)
+
+
 
 ### Dynamic Programming
 
