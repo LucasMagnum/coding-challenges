@@ -266,3 +266,11 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200311.py)
 * Buddy Strings
     [Python](./python/daily_interview_pro/202003/20200312.py)
+* Deepest Node in a Binary Tree
+    [Python](./python/daily_interview_pro/202003/20200313.py)
+* Look and Say Sequence
+    [Python](./python/daily_interview_pro/202003/20200314.py)
+* First Missing Positive Integer
+    [Python](./python/daily_interview_pro/202003/20200315.py)
+* Validate Binary Search Tree
+    [Python](./python/daily_interview_pro/202003/20200316.py)
