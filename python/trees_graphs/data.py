@@ -3,7 +3,7 @@ class TreeNode:
         self.value = value
         self.parent = parent
         self.left = left
-        self.right = left
+        self.right = right
 
     def __str__(self):
         return f"{self.value}"
