@@ -21,7 +21,7 @@ def is_bst_recursive_solution(tree, min_value=None, max_value=None):
         min_value is not None
         and tree.value <= min_value
         or max_value is not None
-        and tree.value > max_value
+        and tree.value >= max_value
     ):
         return False
 

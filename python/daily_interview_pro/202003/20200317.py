@@ -18,7 +18,7 @@ Ex:
 from collections import deque
 
 
-class Node():
+class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value
         self.left = left
@@ -52,10 +52,7 @@ def solution_dfs(root, height):
     if height == 1:
         return [root.value]
 
-    return (
-        solution_dfs(root.left, height - 1) +
-        solution_dfs(root.right, height - 1)
-    )
+    return solution_dfs(root.left, height - 1) + solution_dfs(root.right, height - 1)
 
 
 if __name__ == "__main__":

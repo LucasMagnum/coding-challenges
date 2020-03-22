@@ -105,6 +105,8 @@ Examples:
     [Python](./python/trees_graphs/question_4_9.py)
 * Check subtree
     [Python](./python/trees_graphs/question_4_10.py)
+* Random Node [X]
+    [Python](./python/trees_graphs/question_4_11.py)
 
 
 
@@ -258,8 +260,6 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200308.py)
 * Merge K Sorted Linked Lists
     [Python](./python/daily_interview_pro/202003/20200309.py)
-* Merge K Sorted Linked Lists
-    [Python](./python/daily_interview_pro/202003/20200309.py)
 * Create a balanced binary search tree
     [Python](./python/daily_interview_pro/202003/20200310.py)
 * Trapping Rainwater
@@ -276,3 +276,13 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200316.py)
 * Get all Values at a Certain Height in a Binary Tree
     [Python](./python/daily_interview_pro/202003/20200317.py)
+* Longest Substring With K Distinct Characters
+    [Python](./python/daily_interview_pro/202003/20200318.py)
+* Count Number of Unival Subtrees
+    [Python](./python/daily_interview_pro/202003/20200319.py)
+* Reconstrunct Binary Tree from Preorder and Inorder
+    [Python](./python/daily_interview_pro/202003/20200320.py)
+* Sort Colors
+    [Python](./python/daily_interview_pro/202003/20200321.py)
+* Word Ordering in a Different Alphabetical Order
+    [Python](./python/daily_interview_pro/202003/20200322.py)

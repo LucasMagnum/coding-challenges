@@ -42,7 +42,9 @@ def match_tree(larger, smaller):
     if larger.value != smaller.value:
         return False
 
-    return match_tree(larger.left, smaller.left) and match_tree(larger.right, smaller.right)
+    return match_tree(larger.left, smaller.left) and match_tree(
+        larger.right, smaller.right
+    )
 
 
 if __name__ == "__main__":
