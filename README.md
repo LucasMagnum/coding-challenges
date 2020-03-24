@@ -116,6 +116,8 @@ Examples:
 
 * Insertion
     [Python](./python/bit_manipulation/question_5_1.py)
+* Binary to String
+    [Python](./python/bit_manipulation/question_5_2.py)
 
 
 ### Dynamic Programming
@@ -296,3 +298,5 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200322.py)
 * 3 Sum
     [Python](./python/daily_interview_pro/202003/20200323.py)
+* Largest BST in a Binary Tree
+    [Python](./python/daily_interview_pro/202003/20200324.py)
