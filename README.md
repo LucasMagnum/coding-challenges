@@ -107,7 +107,15 @@ Examples:
     [Python](./python/trees_graphs/question_4_10.py)
 * Random Node [X]
     [Python](./python/trees_graphs/question_4_11.py)
+* Paths with Sum
+    [Python](./python/trees_graphs/question_4_12.py)
 
+### Bit manipulation
+
+#### Solutions
+
+* Insertion
+    [Python](./python/bit_manipulation/question_5_1.py)
 
 
 ### Dynamic Programming
@@ -286,3 +294,5 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200321.py)
 * Word Ordering in a Different Alphabetical Order
     [Python](./python/daily_interview_pro/202003/20200322.py)
+* 3 Sum
+    [Python](./python/daily_interview_pro/202003/20200323.py)
