@@ -43,3 +43,5 @@ if __name__ == "__main__":
     assert len(stack) == 100
     assert stack.pop() == 100
     assert stack.pop(0) == 25
+
+    print("Working as expected!")

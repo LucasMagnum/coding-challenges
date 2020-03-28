@@ -45,3 +45,5 @@ if __name__ == "__main__":
     assert queue.dequeue() == 1
     assert queue.dequeue() == 2
     assert queue.dequeue() == 3
+
+    print("Working as expected!")

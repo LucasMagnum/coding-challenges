@@ -300,3 +300,9 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200323.py)
 * Largest BST in a Binary Tree
     [Python](./python/daily_interview_pro/202003/20200324.py)
+* Find the Number of Islands
+    [Python](./python/daily_interview_pro/202003/20200325.py)
+* Minimum Removals for Valid
+    [Python](./python/daily_interview_pro/202003/20200326.py)
+* Group Words that are Anagrams
+    [Python](./python/daily_interview_pro/202003/20200327.py)
