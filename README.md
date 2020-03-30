@@ -306,3 +306,7 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200326.py)
 * Group Words that are Anagrams
     [Python](./python/daily_interview_pro/202003/20200327.py)
+* Running Media
+    [Python](./python/daily_interview_pro/202003/20200328.py)
+* Room scheduling
+    [Python](./python/daily_interview_pro/202003/20200329.py)
