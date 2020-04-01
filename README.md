@@ -310,3 +310,7 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200328.py)
 * Room scheduling
     [Python](./python/daily_interview_pro/202003/20200329.py)
+* Reverse Words in a String
+    [Python](./python/daily_interview_pro/202003/20200330.py)
+* Merge List Of Number Into Ranges
+    [Python](./python/daily_interview_pro/202003/20200331.py)
