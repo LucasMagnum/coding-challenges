@@ -252,6 +252,9 @@ Examples:
     [Python](./python/daily_interview_pro/202002/20200227.py)
 * Course Prerequisites
     [Python](./python/daily_interview_pro/202002/20200228.py)
+
+##### March
+
 * Move Zeros
     [Python](./python/daily_interview_pro/202003/20200301.py)
 * Find the k-th Largest Element in a List
@@ -314,3 +317,8 @@ Examples:
     [Python](./python/daily_interview_pro/202003/20200330.py)
 * Merge List Of Number Into Ranges
     [Python](./python/daily_interview_pro/202003/20200331.py)
+
+##### April
+
+* Product of Array Except Self 
+    [Python](./python/daily_interview_pro/202004/01.py)
