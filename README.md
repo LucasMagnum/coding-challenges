@@ -324,3 +324,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/01.py)
 * Given two arrays, write a function to compute their intersection
     [Python](./python/daily_interview_pro/202004/02.py)
+* Longest Increasing Subsequence
+    [Python](./python/daily_interview_pro/202004/03.py)
