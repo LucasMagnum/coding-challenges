@@ -322,3 +322,5 @@ Examples:
 
 * Product of Array Except Self 
     [Python](./python/daily_interview_pro/202004/01.py)
+* Given two arrays, write a function to compute their intersection
+    [Python](./python/daily_interview_pro/202004/02.py)
