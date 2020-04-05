@@ -326,3 +326,7 @@ Examples:
     [Python](./python/daily_interview_pro/202004/02.py)
 * Longest Increasing Subsequence
     [Python](./python/daily_interview_pro/202004/03.py)
+* Angles of a Clock
+    [Python](./python/daily_interview_pro/202004/04.py)
+* Arithmetic Binary Tree
+    [Python](./python/daily_interview_pro/202004/05.py)
