@@ -320,7 +320,7 @@ Examples:
 
 ##### April
 
-* Product of Array Except Self 
+* Product of Array Except Self
     [Python](./python/daily_interview_pro/202004/01.py)
 * Given two arrays, write a function to compute their intersection
     [Python](./python/daily_interview_pro/202004/02.py)
@@ -330,3 +330,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/04.py)
 * Arithmetic Binary Tree
     [Python](./python/daily_interview_pro/202004/05.py)
+* Tree Serialization
+    [Python](./python/daily_interview_pro/202004/06.py)
