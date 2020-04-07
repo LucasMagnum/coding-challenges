@@ -332,3 +332,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/05.py)
 * Tree Serialization
     [Python](./python/daily_interview_pro/202004/06.py)
+* Distribute Bonuses
+    [Python](./python/daily_interview_pro/202004/07.py)
