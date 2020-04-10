@@ -334,3 +334,9 @@ Examples:
     [Python](./python/daily_interview_pro/202004/06.py)
 * Distribute Bonuses
     [Python](./python/daily_interview_pro/202004/07.py)
+* Min Range Needed to Sort
+    [Python](./python/daily_interview_pro/202004/08.py)
+* Reverse Integer
+    [Python](./python/daily_interview_pro/202004/09.py)
+* Min Stack
+    [Python](./python/daily_interview_pro/202004/10.py)
