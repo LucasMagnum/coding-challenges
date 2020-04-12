@@ -340,3 +340,7 @@ Examples:
     [Python](./python/daily_interview_pro/202004/09.py)
 * Min Stack
     [Python](./python/daily_interview_pro/202004/10.py)
+* Full Binary Tree
+    [Python](./python/daily_interview_pro/202004/11.py)
+* Decode string
+    [Python](./python/daily_interview_pro/202004/12.py)
