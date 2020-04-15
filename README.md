@@ -344,3 +344,7 @@ Examples:
     [Python](./python/daily_interview_pro/202004/11.py)
 * Decode string
     [Python](./python/daily_interview_pro/202004/12.py)
+* Circle of Chained Words
+    [Python](./python/daily_interview_pro/202004/13.py)
+* Jump to the End
+    [Python](./python/daily_interview_pro/202004/14.py)
