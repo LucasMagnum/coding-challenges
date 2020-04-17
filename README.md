@@ -348,3 +348,9 @@ Examples:
     [Python](./python/daily_interview_pro/202004/13.py)
 * Jump to the End
     [Python](./python/daily_interview_pro/202004/14.py)
+* H-Index
+    [Python](./python/daily_interview_pro/202004/15.py)
+* Symmetric k-ary Tree
+    [Python](./python/daily_interview_pro/202004/16.py)
+* Max and Min with Limited Comparisons
+    [Python](./python/daily_interview_pro/202004/17.py)
