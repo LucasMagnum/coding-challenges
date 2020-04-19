@@ -356,3 +356,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/17.py)
 * Nth Fibonacci Number
     [Python](./python/daily_interview_pro/202004/18.py)
+* Find the Single Element in an Array of Duplicates
+    [Python](./python/daily_interview_pro/202004/19.py)
