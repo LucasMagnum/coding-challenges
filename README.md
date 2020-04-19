@@ -354,3 +354,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/16.py)
 * Max and Min with Limited Comparisons
     [Python](./python/daily_interview_pro/202004/17.py)
+* Nth Fibonacci Number
+    [Python](./python/daily_interview_pro/202004/18.py)
