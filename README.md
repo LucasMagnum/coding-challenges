@@ -358,3 +358,7 @@ Examples:
     [Python](./python/daily_interview_pro/202004/18.py)
 * Find the Single Element in an Array of Duplicates
     [Python](./python/daily_interview_pro/202004/19.py)
+* Convert Roman Numerals to Decimal
+    [Python](./python/daily_interview_pro/202004/20.py)
+* String Compression
+    [Python](./python/daily_interview_pro/202004/21.py)
