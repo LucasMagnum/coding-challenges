@@ -362,3 +362,9 @@ Examples:
     [Python](./python/daily_interview_pro/202004/20.py)
 * String Compression
     [Python](./python/daily_interview_pro/202004/21.py)
+* No Adjacent Repeating Characters
+    [Python](./python/daily_interview_pro/202004/22.py)
+* Make the Largest Number
+    [Python](./python/daily_interview_pro/202004/23.py)
+
+
