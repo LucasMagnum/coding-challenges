@@ -366,5 +366,7 @@ Examples:
     [Python](./python/daily_interview_pro/202004/22.py)
 * Make the Largest Number
     [Python](./python/daily_interview_pro/202004/23.py)
-
-
+* Smallest Number that is not a Sum of a Subset of List
+    [Python](./python/daily_interview_pro/202004/24.py)
+* Maximum Path Sum in Binary Tree
+    [Python](./python/daily_interview_pro/202004/25.py)
