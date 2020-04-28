@@ -370,3 +370,9 @@ Examples:
     [Python](./python/daily_interview_pro/202004/24.py)
 * Maximum Path Sum in Binary Tree
     [Python](./python/daily_interview_pro/202004/25.py)
+* Permutations of numbers
+    [Python](./python/daily_interview_pro/202004/26.py)
+* Longest Consecutive Sequence
+    [Python](./python/daily_interview_pro/202004/27.py)
+* Subarray With Target Sum
+    [Python](./python/daily_interview_pro/202004/28.py)
