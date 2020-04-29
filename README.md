@@ -376,3 +376,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/27.py)
 * Subarray With Target Sum
     [Python](./python/daily_interview_pro/202004/28.py)
+* Determine If Linked List is Palindrome
+    [Python](./python/daily_interview_pro/202004/29.py)
