@@ -378,3 +378,5 @@ Examples:
     [Python](./python/daily_interview_pro/202004/28.py)
 * Determine If Linked List is Palindrome
     [Python](./python/daily_interview_pro/202004/29.py)
+* Level Order Traversal of Binary Tree
+    [Python](./python/daily_interview_pro/202004/30.py)
