@@ -386,4 +386,7 @@ Examples:
 
 * Shifted String
     [Python](./python/daily_interview_pro/202005/01.py)
-
+* Lowest Common Ancestor of 2 Nodes in Binary Tree
+    [Python](./python/daily_interview_pro/202005/02.py)
+* Binary Tree Level with Minimum Sum
+    [Python](./python/daily_interview_pro/202005/03.py)
