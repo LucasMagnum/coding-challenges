@@ -390,3 +390,7 @@ Examples:
     [Python](./python/daily_interview_pro/202005/02.py)
 * Binary Tree Level with Minimum Sum
     [Python](./python/daily_interview_pro/202005/03.py)
+* Find Missing Numbers in an Array
+    [Python](./python/daily_interview_pro/202005/04.py)
+* Plus One
+    [Python](./python/daily_interview_pro/202005/05.py)
