@@ -394,3 +394,13 @@ Examples:
     [Python](./python/daily_interview_pro/202005/04.py)
 * Plus One
     [Python](./python/daily_interview_pro/202005/05.py)
+* Detect Linked List Cycle
+    [Python](./python/daily_interview_pro/202005/06.py)
+* Top K Frequent words
+    [Python](./python/daily_interview_pro/202005/07.py)
+* Design Tic-Tac-Toe
+    [Python](./python/daily_interview_pro/202005/08.py)
+* Absolute Path
+    [Python](./python/daily_interview_pro/202005/09.py)
+* Reverse a Directed Graph
+    [Python](./python/daily_interview_pro/202005/10.py)
