@@ -406,3 +406,5 @@ Examples:
     [Python](./python/daily_interview_pro/202005/10.py)
 * Compare Version Numbers
     [Python](./python/daily_interview_pro/202005/11.py)
+* Spreadsheet Column Title
+    [Python](./python/daily_interview_pro/202005/12.py)
