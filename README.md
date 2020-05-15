@@ -409,4 +409,8 @@ Examples:
 * Spreadsheet Column Title
     [Python](./python/daily_interview_pro/202005/12.py)
 * Consecutive Ones
-    [Python](./python/daily_interview_pro/202005/12.py)
+    [Python](./python/daily_interview_pro/202005/13.py)
+* Generate All IP Addresses
+    [Python](./python/daily_interview_pro/202005/14.py)
+* Spreadsheet Columns (Spreadsheet Column Title)
+    [Python](./python/daily_interview_pro/202005/14.py)
