@@ -413,4 +413,8 @@ Examples:
 * Generate All IP Addresses
     [Python](./python/daily_interview_pro/202005/14.py)
 * Spreadsheet Columns (Spreadsheet Column Title)
-    [Python](./python/daily_interview_pro/202005/14.py)
+    [Python](./python/daily_interview_pro/202005/15.py)
+* Print a tree level-by-level, with line-breaks
+    [Python](./python/daily_interview_pro/202005/16.py)
+* Palindrome Integers
+    [Python](./python/daily_interview_pro/202005/17.py)
