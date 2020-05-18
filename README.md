@@ -418,3 +418,5 @@ Examples:
     [Python](./python/daily_interview_pro/202005/16.py)
 * Palindrome Integers
     [Python](./python/daily_interview_pro/202005/17.py)
+* Fix Brackets
+    [Python](./python/daily_interview_pro/202005/18.py)
