@@ -420,3 +420,11 @@ Examples:
     [Python](./python/daily_interview_pro/202005/17.py)
 * Fix Brackets
     [Python](./python/daily_interview_pro/202005/18.py)
+* Most Frequent Subtree Sum
+    [Python](./python/daily_interview_pro/202005/19.py)
+* Sort a Partially Sorted List
+    [Python](./python/daily_interview_pro/202005/20.py)
+* Multitasking
+    [Python](./python/daily_interview_pro/202005/21.py)
+* Staying on a Chess Board
+    [Python](./python/daily_interview_pro/202005/22.py)
