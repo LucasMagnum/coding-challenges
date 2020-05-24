@@ -428,3 +428,7 @@ Examples:
     [Python](./python/daily_interview_pro/202005/21.py)
 * Staying on a Chess Board
     [Python](./python/daily_interview_pro/202005/22.py)
+* Making a Height Balanced Binary Search Tree
+    [Python](./python/daily_interview_pro/202005/23.py)
+* Kaprekar's Constant
+    [Python](./python/daily_interview_pro/202005/24.py)
