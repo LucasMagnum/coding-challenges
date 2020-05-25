@@ -432,3 +432,5 @@ Examples:
     [Python](./python/daily_interview_pro/202005/23.py)
 * Kaprekar's Constant
     [Python](./python/daily_interview_pro/202005/24.py)
+* City Skyline
+    [Python](./python/daily_interview_pro/202005/25.py)
