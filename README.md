@@ -434,3 +434,7 @@ Examples:
     [Python](./python/daily_interview_pro/202005/24.py)
 * City Skyline
     [Python](./python/daily_interview_pro/202005/25.py)
+* Number of Cousins
+    [Python](./python/daily_interview_pro/202005/26.py)
+* Generate Binary Search Trees
+    [Python](./python/daily_interview_pro/202005/27.py)
