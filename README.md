@@ -438,3 +438,17 @@ Examples:
     [Python](./python/daily_interview_pro/202005/26.py)
 * Generate Binary Search Trees
     [Python](./python/daily_interview_pro/202005/27.py)
+* UTF-8 Validator
+    [Python](./python/daily_interview_pro/202005/28.py)
+* Fixed Point
+    [Python](./python/daily_interview_pro/202005/29.py)
+* ZigZag Binary Tree
+    [Python](./python/daily_interview_pro/202005/30.py)
+* Sorting Window Range
+    [Python](./python/daily_interview_pro/202005/31.py)
+
+
+##### June
+
+* Determine Height Balanced Binary Tree
+    [Python](./python/daily_interview_pro/202006/01.py)
