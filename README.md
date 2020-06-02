@@ -452,3 +452,5 @@ Examples:
 
 * Determine Height Balanced Binary Tree
     [Python](./python/daily_interview_pro/202006/01.py)
+* Rectangle Intersection
+    [Python](./python/daily_interview_pro/202006/02.py)
