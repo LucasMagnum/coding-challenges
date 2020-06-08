@@ -454,3 +454,15 @@ Examples:
     [Python](./python/daily_interview_pro/202006/01.py)
 * Rectangle Intersection
     [Python](./python/daily_interview_pro/202006/02.py)
+* Rectangle Intersection
+    [Python](./python/daily_interview_pro/202006/03.py)
+* Rotate Linked List
+    [Python](./python/daily_interview_pro/202006/04.py)
+* Character Map
+    [Python](./python/daily_interview_pro/202006/05.py)
+* Flatten Dictionary
+    [Python](./python/daily_interview_pro/202006/06.py)
+* Reverse Polish Notation Calculator
+    [Python](./python/daily_interview_pro/202006/07.py)
+* Shortest unique prefix
+    [Python](./python/daily_interview_pro/202006/08.py)
