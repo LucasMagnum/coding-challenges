@@ -466,3 +466,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/07.py)
 * Shortest unique prefix
     [Python](./python/daily_interview_pro/202006/08.py)
+* Reverse bits
+    [Python](./python/daily_interview_pro/202006/09.py)
