@@ -468,3 +468,7 @@ Examples:
     [Python](./python/daily_interview_pro/202006/08.py)
 * Reverse bits
     [Python](./python/daily_interview_pro/202006/09.py)
+* First recurring character
+    [Python](./python/daily_interview_pro/202006/10.py)
+* Maze Paths
+    [Python](./python/daily_interview_pro/202006/11.py)
