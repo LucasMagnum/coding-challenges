@@ -472,3 +472,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/10.py)
 * Maze Paths
     [Python](./python/daily_interview_pro/202006/11.py)
+* Check for Palindrome
+    [Python](./python/daily_interview_pro/202006/12.py)
