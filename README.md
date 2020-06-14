@@ -474,3 +474,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/11.py)
 * Check for Palindrome
     [Python](./python/daily_interview_pro/202006/12.py)
+* Nearest Points
+    [Python](./python/daily_interview_pro/202006/13.py)
