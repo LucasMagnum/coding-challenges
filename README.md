@@ -476,3 +476,9 @@ Examples:
     [Python](./python/daily_interview_pro/202006/12.py)
 * Nearest Points
     [Python](./python/daily_interview_pro/202006/13.py)
+* Optimized List Sum
+    [Python](./python/daily_interview_pro/202006/14.py)
+* Filter Binary Tree Leaves
+    [Python](./python/daily_interview_pro/202006/15.py)
+* Swap Every Two Nodes in a Linked List
+    [Python](./python/daily_interview_pro/202006/16.py)
