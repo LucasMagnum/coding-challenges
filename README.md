@@ -482,3 +482,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/15.py)
 * Swap Every Two Nodes in a Linked List
     [Python](./python/daily_interview_pro/202006/16.py)
+* Partition a List
+    [Python](./python/daily_interview_pro/202006/17.py)
