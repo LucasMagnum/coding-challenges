@@ -484,3 +484,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/16.py)
 * Partition a List
     [Python](./python/daily_interview_pro/202006/17.py)
+* Making Change
+    [Python](./python/daily_interview_pro/202006/18.py)
