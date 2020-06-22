@@ -486,3 +486,11 @@ Examples:
     [Python](./python/daily_interview_pro/202006/17.py)
 * Making Change
     [Python](./python/daily_interview_pro/202006/18.py)
+* Phone Numbers
+    [Python](./python/daily_interview_pro/202006/19.py)
+* Largest Path Sum from Root To Leaf
+    [Python](./python/daily_interview_pro/202006/20.py)
+* Inorder Successor
+    [Python](./python/daily_interview_pro/202006/21.py)
+* Rotate Array
+    [Python](./python/daily_interview_pro/202006/22.py)
