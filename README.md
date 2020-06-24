@@ -454,7 +454,7 @@ Examples:
     [Python](./python/daily_interview_pro/202006/01.py)
 * Rectangle Intersection
     [Python](./python/daily_interview_pro/202006/02.py)
-* Rectangle Intersection
+* Postorder Traversal
     [Python](./python/daily_interview_pro/202006/03.py)
 * Rotate Linked List
     [Python](./python/daily_interview_pro/202006/04.py)
@@ -494,3 +494,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/21.py)
 * Rotate Array
     [Python](./python/daily_interview_pro/202006/22.py)
+* Determine if number
+    [Python](./python/daily_interview_pro/202006/23.py)
