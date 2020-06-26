@@ -496,3 +496,7 @@ Examples:
     [Python](./python/daily_interview_pro/202006/22.py)
 * Determine if number
     [Python](./python/daily_interview_pro/202006/23.py)
+* Picking up Change
+    [Python](./python/daily_interview_pro/202006/24.py)
+* Sorted Square Numbers
+    [Python](./python/daily_interview_pro/202006/24.py)
