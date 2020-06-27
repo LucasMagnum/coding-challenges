@@ -499,4 +499,6 @@ Examples:
 * Picking up Change
     [Python](./python/daily_interview_pro/202006/24.py)
 * Sorted Square Numbers
-    [Python](./python/daily_interview_pro/202006/24.py)
+    [Python](./python/daily_interview_pro/202006/25.py)
+* Level of tree with Maximum Sum
+    [Python](./python/daily_interview_pro/202006/26.py)
