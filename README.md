@@ -502,3 +502,5 @@ Examples:
     [Python](./python/daily_interview_pro/202006/25.py)
 * Level of tree with Maximum Sum
     [Python](./python/daily_interview_pro/202006/26.py)
+* Reverse words
+    [Python](./python/daily_interview_pro/202006/28.py)
