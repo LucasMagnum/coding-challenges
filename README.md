@@ -502,5 +502,14 @@ Examples:
     [Python](./python/daily_interview_pro/202006/25.py)
 * Level of tree with Maximum Sum
     [Python](./python/daily_interview_pro/202006/26.py)
+* Find subtree
+    [Python](./python/daily_interview_pro/202006/27.py)
 * Reverse words
     [Python](./python/daily_interview_pro/202006/28.py)
+* Anagrams in a string
+    [Python](./python/daily_interview_pro/202006/29.py)
+* Swap Bits
+    [Python](./python/daily_interview_pro/202006/30.py)
+
+
+##### July
