@@ -518,3 +518,8 @@ Examples:
 
 
 ##### July
+
+* String to Integer
+    [Python](./python/daily_interview_pro/202007/01.py)
+* Rotate Matrix
+    [Python](./python/daily_interview_pro/202007/02.py)
