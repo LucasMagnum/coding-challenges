@@ -523,3 +523,11 @@ Examples:
     [Python](./python/daily_interview_pro/202007/01.py)
 * Rotate Matrix
     [Python](./python/daily_interview_pro/202007/02.py)
+* Power Function
+    [Python](./python/daily_interview_pro/202007/03.py)
+* Squareroot
+    [Python](./python/daily_interview_pro/202007/04.py)
+* Missing Ranges
+    [Python](./python/daily_interview_pro/202007/05.py)
+* Sudoku Check
+    [Python](./python/daily_interview_pro/202007/06.py)
