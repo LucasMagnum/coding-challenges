@@ -531,3 +531,5 @@ Examples:
     [Python](./python/daily_interview_pro/202007/05.py)
 * Sudoku Check
     [Python](./python/daily_interview_pro/202007/06.py)
+* Sum of Squares
+    [Python](./python/daily_interview_pro/202007/07.py)
