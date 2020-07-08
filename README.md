@@ -533,3 +533,5 @@ Examples:
     [Python](./python/daily_interview_pro/202007/06.py)
 * Sum of Squares
     [Python](./python/daily_interview_pro/202007/07.py)
+* Schedule Tasks
+    [Python](./python/daily_interview_pro/202007/08.py)
