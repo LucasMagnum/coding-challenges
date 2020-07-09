@@ -535,3 +535,5 @@ Examples:
     [Python](./python/daily_interview_pro/202007/07.py)
 * Schedule Tasks
     [Python](./python/daily_interview_pro/202007/08.py)
+* Remove Duplicate from Linked List
+    [Python](./python/daily_interview_pro/202007/09.py)
