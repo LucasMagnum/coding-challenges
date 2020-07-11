@@ -537,3 +537,7 @@ Examples:
     [Python](./python/daily_interview_pro/202007/08.py)
 * Remove Duplicate from Linked List
     [Python](./python/daily_interview_pro/202007/09.py)
+* Queens on a chessboard
+    [Python](./python/daily_interview_pro/202007/10.py)
+* Remove One Layer of Parenthesis
+    [Python](./python/daily_interview_pro/202007/11.py)
