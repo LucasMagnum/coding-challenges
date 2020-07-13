@@ -541,3 +541,7 @@ Examples:
     [Python](./python/daily_interview_pro/202007/10.py)
 * Remove One Layer of Parenthesis
     [Python](./python/daily_interview_pro/202007/11.py)
+* Number of Connected Components
+    [Python](./python/daily_interview_pro/202007/12.py)
+* Convert to Base Two
+    [Python](./python/daily_interview_pro/202007/13.py)
