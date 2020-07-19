@@ -545,3 +545,17 @@ Examples:
     [Python](./python/daily_interview_pro/202007/12.py)
 * Convert to Base Two
     [Python](./python/daily_interview_pro/202007/13.py)
+* Split a Binary Search Tree
+    [Python](./python/daily_interview_pro/202007/14.py)
+* Find Closest Points
+    [Python](./python/daily_interview_pro/202007/15.py)
+* Duplicate Subtrees
+    [Python](./python/daily_interview_pro/202007/16.py)
+* K Closest Elements
+    [Python](./python/daily_interview_pro/202007/17.py)
+* Index of Larger Next Number
+    [Python](./python/daily_interview_pro/202007/18.py)
+* Remove Character to Create Palindrome
+    [Python](./python/daily_interview_pro/202007/19.py)
+
+
