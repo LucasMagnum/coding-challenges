@@ -12,9 +12,11 @@ Output:  77245217
 
 from functools import cmp_to_key
 
+
 def largestNum(nums):
     str_nums = [str(n) for n in sorted(nums, key=cmp_to_key(compare_function))]
     return "".join(str_nums)
+
 
 def compare_function(a, b):
     return 1 if str(a) + str(b) < str(b) + str(a) else -1

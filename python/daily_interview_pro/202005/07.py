@@ -27,24 +27,27 @@ def solution(words, k):
     counter = {}
     for word in words:
         counter[word] = counter.get(word, 0) + 1
-    
+
     freqs = defaultdict(list)
     for word, count in counter.items():
         freqs[count].append(word)
-    
+
     results = []
     for i in range(len(words), 0, -1):
         if i in freqs:
             for word in freqs[i]:
                 results.append((word, i))
-        
+
         if len(results) >= k:
             break
-    
+
     results = sorted(results, reverse=True, key=lambda x: x[1])
     return [element[0] for element in results]
 
 
-
 if __name__ == "__main__":
-    print(solution(["daily", "interview", "pro", "pro", "for", "daily", "pro", "problems"], k=2))
+    print(
+        solution(
+            ["daily", "interview", "pro", "pro", "for", "daily", "pro", "problems"], k=2
+        )
+    )

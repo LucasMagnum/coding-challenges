@@ -12,6 +12,7 @@ Output: ['a', '2', 'b', 'c', '3']
 
 """
 
+
 def solution(string):
     left = i = 0
 
@@ -20,13 +21,13 @@ def solution(string):
 
         while (i + 1) < len(string) and char == string[i + 1]:
             length, i = length + 1, i + 1
-        
+
         string[left] = char
 
         if length > 1:
             string[left + 1] = length
             left += 1
-        
+
         left, i = left + 1, i + 1
     return string[:left]
 

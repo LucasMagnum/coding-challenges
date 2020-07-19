@@ -22,7 +22,7 @@ Here's some starter code for the problem:
 from collections import defaultdict
 
 
-class Node():
+class Node:
     def __init__(self, value, left=None, right=None):
         self.val = value
         self.left = left
@@ -36,7 +36,11 @@ def most_freq_subtree_sum(root, sums=None):
     if sums is None:
         sums = defaultdict(int)
 
-    total_root = most_freq_subtree_sum(root.left, sums) + most_freq_subtree_sum(root.right, sums) + root.val
+    total_root = (
+        most_freq_subtree_sum(root.left, sums)
+        + most_freq_subtree_sum(root.right, sums)
+        + root.val
+    )
     sums[total_root] += 1
 
     current_max = float("-inf")

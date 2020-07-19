@@ -30,6 +30,7 @@ BYTE_EQUAL = [
     0b11110000,
 ]
 
+
 def utf8_validator(bytes):
     bytes_len = len(bytes)
     if bytes_len == 0 or bytes_len > 4:

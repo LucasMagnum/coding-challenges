@@ -14,7 +14,7 @@ import math
 def solution(number):
     if number == 0:
         return True
-    
+
     k = int(math.log10(number))
     divisor = 10 ** k
 
@@ -24,12 +24,11 @@ def solution(number):
 
         if first_digit != last_digit:
             return False
-    
+
         number = number % divisor
         number = number // 10
         divisor /= 100
     return True
-
 
 
 if __name__ == "__main__":

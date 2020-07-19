@@ -10,6 +10,7 @@ You can assume that all nodes will have their own unique value.
 
 """
 
+
 class Node(object):
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -53,8 +54,9 @@ def find_node(node, value, parent_value, height):
     if node.value == value:
         return (height, parent_value)
 
-    return (find_node(node.left, value, node.value, height + 1) or
-            find_node(node.right, value, node.value, height + 1))
+    return find_node(node.left, value, node.value, height + 1) or find_node(
+        node.right, value, node.value, height + 1
+    )
 
 
 def get_cousins(node, value, parent_value, height):
@@ -64,8 +66,9 @@ def get_cousins(node, value, parent_value, height):
     if height == 0:
         return [node.value]
 
-    return (get_cousins(node.left, value, parent_value, height - 1) +
-            get_cousins(node.right, value, parent_value, height - 1))
+    return get_cousins(node.left, value, parent_value, height - 1) + get_cousins(
+        node.right, value, parent_value, height - 1
+    )
 
 
 if __name__ == "__main__":

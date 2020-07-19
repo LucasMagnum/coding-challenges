@@ -19,10 +19,10 @@ def solution(path):
     for folder in path.split("/"):
         if folder == "..":
             stack.pop()
-        
+
         elif folder != ".":
             stack.append(folder)
-    
+
     return "/".join(stack)
 
 

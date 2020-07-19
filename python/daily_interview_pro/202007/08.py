@@ -42,7 +42,7 @@ def schedule_tasks(tasks, n):
 
 
 if __name__ == "__main__":
-    print(schedule_tasks(['q', 'q', 's', 'q', 'w', 'w'], 4))
+    print(schedule_tasks(["q", "q", "s", "q", "w", "w"], 4))
     # print 6
     # one of the possible orders to run the task would be
     # 'q', 'w', idle, idle, 'q', 'w'

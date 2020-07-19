@@ -17,18 +17,16 @@ def solution(mat):
         for j, cell in enumerate(row):
             if j > 0:
                 max_change_mat[i][j] = max(
-                    max_change_mat[i][j - 1] + mat[i][j], max_change_mat[i][j])
+                    max_change_mat[i][j - 1] + mat[i][j], max_change_mat[i][j]
+                )
             if i > 0:
                 max_change_mat[i][j] = max(
-                    max_change_mat[i - 1][j] + mat[i][j], max_change_mat[i][j])
+                    max_change_mat[i - 1][j] + mat[i][j], max_change_mat[i][j]
+                )
 
     return max_change_mat[-1][-1]
 
 
 if __name__ == "__main__":
-    matrix = [
-        [0, 3, 0, 2],
-        [1, 2, 3, 3],
-        [6, 0, 3, 2]
-    ]
+    matrix = [[0, 3, 0, 2], [1, 2, 3, 3], [6, 0, 3, 2]]
     print(solution(matrix))

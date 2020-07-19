@@ -11,6 +11,7 @@ Once the knight leaves the board it cannot move again and will be considered off
 
 """
 
+
 def solution(x, y, moves, cache={}):
     if (x, y, moves) in cache:
         return cache[(x, y, moves)]
@@ -27,6 +28,7 @@ def solution(x, y, moves, cache={}):
     ]
     cache[(x, y, moves)] = sum(move_probs)
     return cache[(x, y, moves)]
+
 
 def get_valid_moves(x, y):
     return [

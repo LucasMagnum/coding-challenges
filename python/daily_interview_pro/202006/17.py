@@ -32,6 +32,5 @@ def solution(array, k):
     return array
 
 
-
 if __name__ == "__main__":
     print(solution([2, 2, 2, 5, 2, 2, 2, 2, 5], 3))

@@ -8,6 +8,7 @@ then swap the position of the 3rd and 4th node etc.
 
 """
 
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value

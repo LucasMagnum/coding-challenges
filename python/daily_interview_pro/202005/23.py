@@ -51,4 +51,4 @@ def build_tree(nums, low, high):
 
 
 if __name__ == "__main__":
-    print(create_height_balanced_bst([1, 2,  6, 8, 9 , 10]))
+    print(create_height_balanced_bst([1, 2, 6, 8, 9, 10]))

@@ -6,6 +6,7 @@ If such arrangement exists, return a palindrome (There could be many arrangement
 
 """
 
+
 def solution(string):
     counter = {}
 

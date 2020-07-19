@@ -16,6 +16,7 @@ Input: [1, 2, 3, 2, 3, 5, 1]
 Output: [1, 2, 3, 1, 2, 3, 1]
 """
 
+
 def solution(array):
     bonus = [1] * len(array)
 

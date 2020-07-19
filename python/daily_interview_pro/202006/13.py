@@ -22,7 +22,7 @@ class Point:
 
 
 def point_dist_squared(p1, p2):
-    return (p1.x - p2.x)**2 + (p1.y - p2.y)**2
+    return (p1.x - p2.x) ** 2 + (p1.y - p2.y) ** 2
 
 
 def closest_points(points, k, p):
@@ -35,7 +35,6 @@ def closest_points(points, k, p):
             heapq.heappop(closest)
 
     return [point for _, point in closest]
-
 
 
 if __name__ == "__main__":

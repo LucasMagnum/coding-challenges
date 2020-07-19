@@ -35,7 +35,6 @@ def find_anagrams(string, part):
     return result
 
 
-
 if __name__ == "__main__":
-    print(find_anagrams('acdbacdacba', 'abc'))
+    print(find_anagrams("acdbacdacba", "abc"))
     # [3, 7]

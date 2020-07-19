@@ -11,6 +11,7 @@ So, the answer here should be 7.
 
 """
 
+
 class Node:
     def __init__(self, value, left=None, right=None):
         self.val = value

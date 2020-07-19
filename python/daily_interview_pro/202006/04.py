@@ -7,6 +7,7 @@ Given a linked list and a number k, rotate the linked list by k places.
 
 """
 
+
 class Node:
     def __init__(self, value, next=None):
         self.value = value
@@ -14,12 +15,11 @@ class Node:
 
     def __str__(self):
         current = self
-        ret = ''
+        ret = ""
         while current:
             ret += str(current.value)
             current = current.next
         return ret
-
 
 
 def rotate_list(linked_list, k):
@@ -44,8 +44,6 @@ def rotate_list(linked_list, k):
     head = slow.next
     slow.next = None
     return head
-
-
 
 
 if __name__ == "__main__":

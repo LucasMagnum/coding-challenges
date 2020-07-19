@@ -27,9 +27,14 @@ def find_subtree(subtree, tree):
 
 def preorder_traversal(node):
     if node is None:
-        return ''
-    return str(node.value) + '-' + preorder_traversal(node.left) + '-' + preorder_traversal(node.right)
-
+        return ""
+    return (
+        str(node.value)
+        + "-"
+        + preorder_traversal(node.left)
+        + "-"
+        + preorder_traversal(node.right)
+    )
 
 
 if __name__ == "__main__":

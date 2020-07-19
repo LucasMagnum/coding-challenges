@@ -18,7 +18,7 @@ Output: [3,7]
 def solution(nums):
     for i in range(len(nums)):
         index = abs(nums[i]) - 1
-        nums[index] = - abs(nums[index])
+        nums[index] = -abs(nums[index])
         print(nums)
 
     return [index for index, n in enumerate(nums, start=1) if n > 0]

@@ -17,17 +17,18 @@ The result can be in any order.
 
 """
 
+
 def solution(array_01, array_02):
     values = {}
     duplicates = {}
 
     for value in array_01:
         values[value] = 1
-    
+
     for value in array_02:
         if value in values:
             duplicates[value] = 1
-        
+
     return [key for key in duplicates]
 
 
@@ -42,5 +43,3 @@ if __name__ == "__main__":
     array_02 = [9, 4, 9, 8, 4]
     assert solution(array_01, array_02) == [9, 4]
     print(solution(array_01, array_02))
-
-

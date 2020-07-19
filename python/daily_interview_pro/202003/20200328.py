@@ -22,8 +22,8 @@ def running_median(stream):
 def add(num, min_heap, max_heap):
     if len(min_heap) + len(max_heap) <= 1:
         heapq.heappush(max_heap, -num)
-        return 
-    
+        return
+
     median = get_median(min_heap, max_heap)
     if num > median:
         heapq.heappush(min_heap, num)
@@ -47,7 +47,7 @@ def print_median(min_heap, max_heap):
 def get_median(min_heap, max_heap):
     if len(min_heap) > len(max_heap):
         return min_heap[0]
-    
+
     elif len(min_heap) < len(max_heap):
         return -max_heap[0]
 

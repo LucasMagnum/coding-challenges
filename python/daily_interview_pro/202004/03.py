@@ -23,9 +23,8 @@ def solution(array):
         for j in range(i):
             if array[i] > array[j]:
                 cache[i] = max(cache[i], cache[j] + 1)
-            
-    return max(cache)
 
+    return max(cache)
 
 
 if __name__ == "__main__":

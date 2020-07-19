@@ -10,6 +10,7 @@ along with its left and right child.
 
 """
 
+
 class TreeNode:
     def __init__(self, val):
         self.left = None
@@ -64,14 +65,14 @@ if __name__ == "__main__":
     # b   c
     #    / \
     #   d*  e*
-    root = TreeNode('a')
-    root.left = TreeNode('b')
+    root = TreeNode("a")
+    root.left = TreeNode("b")
     root.left.parent = root
-    root.right = TreeNode('c')
+    root.right = TreeNode("c")
     root.right.parent = root
-    a = root.right.left = TreeNode('d')
+    a = root.right.left = TreeNode("d")
     root.right.left.parent = root.right
-    b = root.right.right = TreeNode('e')
+    b = root.right.right = TreeNode("e")
     root.right.right.parent = root.right
 
     print(solution(root, a, b).val)

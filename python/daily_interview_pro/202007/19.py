@@ -7,6 +7,7 @@ Given a string, determine if you can remove any character to create a palindrome
 
 """
 
+
 def create_palindrome(s):
     i = 0
     j = len(s) - 1

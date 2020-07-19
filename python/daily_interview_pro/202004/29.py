@@ -10,6 +10,7 @@ Can you do this for a singly linked list?
 
 """
 
+
 class Node(object):
     def __init__(self, val):
         self.val = val
@@ -28,11 +29,11 @@ def solution(node):
 
 
 if __name__ == "__main__":
-    node = Node('a')
-    node.next = Node('b')
+    node = Node("a")
+    node.next = Node("b")
     node.next.prev = node
-    node.next.next = Node('b')
+    node.next.next = Node("b")
     node.next.next.prev = node.next
-    node.next.next.next = Node('a')
+    node.next.next.next = Node("a")
     node.next.next.next.prev = node.next.next
     print(solution(node))

@@ -16,6 +16,7 @@ Given a binary tree, return the list of node values in zigzag order traversal. H
 
 """
 
+
 class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -51,8 +52,8 @@ def zigzag_order(tree):
 
     return result
 
-
     return result
+
 
 if __name__ == "__main__":
     n4 = Node(4)

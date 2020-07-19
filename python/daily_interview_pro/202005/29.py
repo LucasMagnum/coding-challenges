@@ -14,6 +14,7 @@ Here is a starting point:
 
 """
 
+
 def find_fixed_point(nums):
     return helper(0, len(nums), nums)
 
@@ -22,7 +23,7 @@ def helper(low, high, nums):
     if low == high:
         return None
 
-    mid = int((low + high)/2)
+    mid = int((low + high) / 2)
 
     if nums[mid] == mid:
         return mid

@@ -22,7 +22,7 @@ class Node:
 
     def __str__(self):
         # pre-order printing of the tree.
-        result = ''
+        result = ""
         result += str(self.val)
         if self.left:
             result += str(self.left)
@@ -55,6 +55,7 @@ def deserialize(data):
         node.left = recursive()
         node.right = recursive()
         return node
+
     values = iter(data.split())
     return recursive()
 
@@ -74,5 +75,5 @@ if __name__ == "__main__":
 
     print(serialize(tree))
     # 1 3 2 # # 5 # # 4 # 7 # #
-    print(deserialize('1 3 2 # # 5 # # 4 # 7 # #'))
+    print(deserialize("1 3 2 # # 5 # # 4 # 7 # #"))
     # 132547

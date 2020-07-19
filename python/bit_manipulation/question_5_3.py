@@ -20,7 +20,7 @@ def flip_bit(number):
 
     current = 0
     previous = 0
-    max_length = 1 
+    max_length = 1
 
     while number != 0:
         if (number & 1) == 1:
@@ -31,7 +31,7 @@ def flip_bit(number):
             current = 0
         max_length = max([previous + current + 1, max_length])
         number >>= 1
-    
+
     return max_length
 
 

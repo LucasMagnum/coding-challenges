@@ -22,7 +22,7 @@ class Node(object):
     def __str__(self):
         q = deque()
         q.append(self)
-        result = ''
+        result = ""
         while len(q):
             num = len(q)
             while num > 0:
@@ -46,7 +46,7 @@ def solution(node):
     left = solution(node.left)
     right = solution(node.right)
 
-    if ((left and right) or (not left and not right)):
+    if (left and right) or (not left and not right):
         node.left = left
         node.right = right
         return node

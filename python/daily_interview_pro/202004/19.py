@@ -10,6 +10,7 @@ Output: 7
 
 """
 
+
 def solution(array):
     checker = 0
 

@@ -25,7 +25,11 @@ def helper(n, col, row, asc_diag, desc_diag, queen_pos=[]):
 
     curr_row = len(queen_pos)
     for curr_col in range(n):
-        if col[curr_col] and asc_diag[curr_row + curr_col] and desc_diag[curr_row - curr_col]:
+        if (
+            col[curr_col]
+            and asc_diag[curr_row + curr_col]
+            and desc_diag[curr_row - curr_col]
+        ):
             col[curr_col] = False
             asc_diag[curr_row + curr_col] = False
             desc_diag[curr_row - curr_col] = False

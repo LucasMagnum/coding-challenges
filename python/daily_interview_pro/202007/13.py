@@ -14,7 +14,7 @@ def base_2(n):
         return "0"
 
     result = ""
-    while n > 0 :
+    while n > 0:
         if n & 1 == 0:
             result += "0"
         else:

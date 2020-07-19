@@ -12,10 +12,13 @@ Example
     Output: ['jom', 'joh', 'ja', 't']
 
 """
+
+
 class Node:
     def __init__(self):
         self.count = 0
         self.children = {}
+
 
 class Trie:
     def __init__(self):
@@ -31,7 +34,7 @@ class Trie:
 
     def unique_prefix(self, word):
         curr_node = self.root
-        prefix = ''
+        prefix = ""
 
         for c in word:
             if curr_node.count == 1:
@@ -56,5 +59,5 @@ def shortest_unique_prefix(words):
 
 
 if __name__ == "__main__":
-    print(shortest_unique_prefix(['joma', 'john', 'jack', 'techlead']))
+    print(shortest_unique_prefix(["joma", "john", "jack", "techlead"]))
     # ['jom', 'joh', 'ja', 't']

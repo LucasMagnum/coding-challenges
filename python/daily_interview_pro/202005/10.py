@@ -41,9 +41,9 @@ def reverse_graph(graph):
 
 
 if __name__ == "__main__":
-    a = Node('a')
-    b = Node('b')
-    c = Node('c')
+    a = Node("a")
+    b = Node("b")
+    c = Node("c")
 
     a.adjacent += [b, c]
     b.adjacent += [c]

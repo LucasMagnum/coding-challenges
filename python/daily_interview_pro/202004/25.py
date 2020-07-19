@@ -19,18 +19,17 @@ and return the sum. The path does not necessarily need to go through the root.
 
 
 class Node:
-  def __init__(self, val):
-    self.val = val
-    self.left = None
-    self.right = None
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
 
 
 def solution(root):
-    
     def max_sum(root):
         if root is None:
             return float("-inf"), 0
-        
+
         left_max_sum, left_path = max_sum(root.left)
         right_max_sum, right_path = max_sum(root.right)
 

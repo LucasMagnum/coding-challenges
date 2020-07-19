@@ -15,29 +15,30 @@ Here are some examples and some starter code.
 
 """
 
+
 def remove_outermost_parenthesis(s):
-    result = ''
+    result = ""
     parenthesis_level = 0
 
     for c in s:
-        if c == '(':
+        if c == "(":
             if parenthesis_level > 0:
-                result += '('
+                result += "("
             parenthesis_level += 1
         else:
             parenthesis_level -= 1
             if parenthesis_level > 0:
-                result += ')'
+                result += ")"
 
     return result
 
 
 if __name__ == "__main__":
-    print(remove_outermost_parenthesis('(())()'))
+    print(remove_outermost_parenthesis("(())()"))
     # ()
 
-    print(remove_outermost_parenthesis('(()())'))
+    print(remove_outermost_parenthesis("(()())"))
     # ()()
 
-    print(remove_outermost_parenthesis('()()()'))
+    print(remove_outermost_parenthesis("()()()"))
     # ' '

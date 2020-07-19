@@ -47,6 +47,7 @@ board.move(2, 1, 1); -> Returns 1 (player 1 wins)
 |X|X|X|
 """
 
+
 class TicTacToe(object):
     def __init__(self, n):
         self.row = [0] * n
@@ -54,7 +55,7 @@ class TicTacToe(object):
         self.diag = 0
         self.anti_diag = 0
         self.n = n
-    
+
     def move(self, row, col, player):
         offset = -1 if player == 1 else 1
         self.row[row] += offset
@@ -62,10 +63,10 @@ class TicTacToe(object):
 
         if row == col:
             self.diag += offset
-        
+
         if row + col == self.n - 1:
             self.anti_diag += offset
-        
+
         if offset * self.n in [self.row[row], self.col[col], self.diag, self.anti_diag]:
             return player
         return 0

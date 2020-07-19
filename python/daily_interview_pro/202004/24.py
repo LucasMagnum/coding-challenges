@@ -13,6 +13,7 @@ Numbers 1 to 6 can all be summed by a subset of the list of numbers, but 7 canno
 
 """
 
+
 def solution(array):
     result = 1
 
@@ -21,7 +22,7 @@ def solution(array):
             result += number
         else:
             break
-    
+
     return result
 
 

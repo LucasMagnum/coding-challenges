@@ -15,6 +15,7 @@ Output: True
 
 from collections import defaultdict
 
+
 def solution(words):
     graph = defaultdict(list)
     for word in words:
@@ -42,6 +43,3 @@ def dfs(graph, visited, curr, start_word, length):
 if __name__ == "__main__":
     print(solution(["eggs", "karat", "apple", "snack", "tunna"]))
     print(solution(["ana", "karat", "apple", "isnack", "elisi", "tuna"]))
-
-
-

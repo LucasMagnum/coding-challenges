@@ -31,6 +31,5 @@ def solution(n):
     return max(longest, run)
 
 
-
 if __name__ == "__main__":
     print(solution(242))

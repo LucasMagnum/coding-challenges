@@ -22,6 +22,7 @@ down -> right -> down -> right, and down -> down -> right -> right.
 
 """
 
+
 def solution(maze):
     paths = [[0] * len(maze[0]) for _ in range(len(maze))]
     paths[0][0] = 1
@@ -42,6 +43,4 @@ def solution(maze):
 
 
 if __name__ == "__main__":
-    print(solution([[0, 1, 0],
-                    [0, 0, 1],
-                    [0, 0, 0]]))
+    print(solution([[0, 1, 0], [0, 0, 1], [0, 0, 0]]))

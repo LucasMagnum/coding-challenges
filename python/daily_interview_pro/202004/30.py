@@ -17,10 +17,10 @@ The following tree should output 1, 2, 3, 4, 5.
 
 
 class Node:
-  def __init__(self, val, left=None, right=None):
-    self.val = val
-    self.left = left
-    self.right = right
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 
 def solution(root):

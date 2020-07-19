@@ -6,6 +6,7 @@ to sum up to the number.
 
 """
 
+
 def square_sum(n):
     squares = []
 
@@ -23,6 +24,7 @@ def square_sum(n):
                 min_sums[idx + s] = min(min_sums[idx + s], min_sums[idx] + 1)
 
     return min_sums[-1]
+
 
 if __name__ == "__main__":
     print(square_sum(13))

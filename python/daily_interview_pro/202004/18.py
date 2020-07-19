@@ -21,19 +21,20 @@ import sys
 
 
 def fib(nth):
-    a, b = 0, 1 
+    a, b = 0, 1
 
     for _ in range(nth):
         a, b = a + b, a
 
     return a
 
+
 def fib2(nth):
     if nth == 0:
         return 0
     if nth == 1:
         return 1
-    
+
     return fib2(nth - 1) + fib2(nth - 2)
 
 

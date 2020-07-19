@@ -19,7 +19,7 @@ Output: None
 def solution(string):
     checker = 0
     for char in string:
-        if (checker & (1 << ord(char))):
+        if checker & (1 << ord(char)):
             return char
         checker ^= 1 << ord(char)
     return None

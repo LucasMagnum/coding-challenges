@@ -10,6 +10,7 @@ You are given an array of integers. Return all the permutations of this array.
 
 """
 
+
 def permutations(numbers):
     if len(numbers) == 0:
         return [[]]

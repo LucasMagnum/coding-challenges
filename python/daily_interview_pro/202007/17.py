@@ -7,13 +7,14 @@ Given a list of sorted numbers, and two integers k and x, find k closest numbers
 
 """
 
+
 def closest_nums(nums, k, x):
     lo = 0
     hi = len(nums)
-    mid = (lo + hi)//2
+    mid = (lo + hi) // 2
 
     while lo < hi:
-        mid = (lo + hi)//2
+        mid = (lo + hi) // 2
 
         if nums[mid] == k:
             break

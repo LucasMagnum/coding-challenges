@@ -13,6 +13,7 @@ The numbers between index 1 and 5 are out of order and need to be sorted.
 
 """
 
+
 def solution(numbers):
     left = 0
     right = 0

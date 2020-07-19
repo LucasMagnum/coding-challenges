@@ -8,10 +8,11 @@ For notation purposes, we use an integer pos which represents the zero-indexed p
 
 """
 
+
 class ListNode(object):
-  def __init__(self, x):
-    self.val = x
-    self.next = None
+    def __init__(self, x):
+        self.val = x
+        self.next = None
 
 
 def dict_solution(head):
@@ -50,7 +51,7 @@ def reverse_list(head):
         head.next = new_head
         new_head = head
         head = tmp
-    
+
     return new_head
 
 

@@ -18,6 +18,7 @@ There are 3 publications with 3 or more citations, hence the h-index is 3.
 
 """
 
+
 def solution(array):
     n = len(array)
     citations = [0] * (n + 1)
@@ -27,7 +28,7 @@ def solution(array):
             citations[publication] += 1
         else:
             citations[n] += 1
-    
+
     total = 0
     i = n
 
@@ -36,9 +37,8 @@ def solution(array):
         if total >= i:
             return i
         i -= 1
-    
-    return i
 
+    return i
 
 
 if __name__ == "__main__":

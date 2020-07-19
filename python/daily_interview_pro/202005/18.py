@@ -17,6 +17,7 @@ there are many other ways by adding it in different positions!
 
 """
 
+
 def solution(string):
     left_open = 0
     left_closed = 0

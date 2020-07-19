@@ -18,9 +18,9 @@ def square_numbers(nums):
             continue
 
         while len(negative_stack) > 0 and -negative_stack[-1] <= n:
-            result.append(negative_stack.pop()**2)
+            result.append(negative_stack.pop() ** 2)
 
-        result.append(n**2)
+        result.append(n ** 2)
 
     return result
 

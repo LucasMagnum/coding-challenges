@@ -23,6 +23,7 @@ Do not parse the string with int() or any other python functions.
 
 from enum import Enum
 
+
 class DigitState(Enum):
     BEGIN = 0
     NEGATIVE1 = 1
@@ -33,15 +34,16 @@ class DigitState(Enum):
     NEGATIVE2 = 6
     DIGIT3 = 7
 
+
 digit_lambdas = {
     DigitState.BEGIN: lambda x: True,
-    DigitState.NEGATIVE1: lambda x: x == '-',
+    DigitState.NEGATIVE1: lambda x: x == "-",
     DigitState.DIGIT1: lambda x: x.isdigit(),
-    DigitState.DOT: lambda x: x == '.',
+    DigitState.DOT: lambda x: x == ".",
     DigitState.DIGIT2: lambda x: x.isdigit(),
-    DigitState.E: lambda x: x == 'e',
-    DigitState.NEGATIVE2: lambda x: x == '-',
-    DigitState.DIGIT3: lambda x: x.isdigit()
+    DigitState.E: lambda x: x == "e",
+    DigitState.NEGATIVE2: lambda x: x == "-",
+    DigitState.DIGIT3: lambda x: x.isdigit(),
 }
 
 fsm = {
@@ -52,7 +54,7 @@ fsm = {
     DigitState.DIGIT2: [DigitState.DIGIT2, DigitState.E],
     DigitState.E: [DigitState.DIGIT3, DigitState.NEGATIVE2],
     DigitState.NEGATIVE2: [DigitState.DIGIT3],
-    DigitState.DIGIT3: [DigitState.DIGIT3]
+    DigitState.DIGIT3: [DigitState.DIGIT3],
 }
 
 

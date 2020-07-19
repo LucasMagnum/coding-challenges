@@ -42,6 +42,7 @@ defaults to "0"
 
 """
 
+
 def solution(version1, version2):
     versions1 = [int(v) for v in version1.split(".")]
     versions2 = [int(v) for v in version2.split(".")]
@@ -53,7 +54,6 @@ def solution(version1, version2):
         elif v1 < v2:
             return -1
     return 0
-
 
 
 if __name__ == "__main__":

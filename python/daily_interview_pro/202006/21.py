@@ -38,8 +38,6 @@ def inorder_successor(node):
     return parent
 
 
-
-
 if __name__ == "__main__":
     tree = Node(3)
     tree.left = Node(2)

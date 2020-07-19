@@ -20,7 +20,6 @@ def reverse(nums, start, end):
         nums[start + i], nums[end - 1 - i] = nums[end - 1 - i], nums[start + i]
 
 
-
 if __name__ == "__main__":
     a = [1, 2, 3, 4, 5]
     rotate_list(a, 2)

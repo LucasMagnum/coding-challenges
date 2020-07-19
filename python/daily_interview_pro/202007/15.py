@@ -14,7 +14,7 @@ def closest_points(points, k):
     pq = []
 
     for point in points:
-        heapq.heappush(pq, (-(point[0]**2 * point[1]**2), point))
+        heapq.heappush(pq, (-(point[0] ** 2 * point[1] ** 2), point))
 
         if len(pq) > k:
             heapq.heappop(pq)

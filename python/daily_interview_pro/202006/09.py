@@ -15,8 +15,10 @@ Output: 1260388352
 
 """
 
+
 def to_bits(n):
-  return '{0:08b}'.format(n)
+    return "{0:08b}".format(n)
+
 
 def reverse_num_bits(num):
     new_num = 0

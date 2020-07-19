@@ -16,8 +16,8 @@ def brute_force(array):
     results = []
 
     for i, a in enumerate(array):
-        for j, b in enumerate(array[i + 1:], i):
-            for c in array[j + 1:]:
+        for j, b in enumerate(array[i + 1 :], i):
+            for c in array[j + 1 :]:
                 if a + b + c == 0:
                     results.append([a, b, c])
 

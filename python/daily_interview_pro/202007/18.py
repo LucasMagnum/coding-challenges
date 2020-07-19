@@ -9,6 +9,7 @@ If there are no elements larger than the current element, then use -1 instead.
 
 """
 
+
 def larger_number(nums):
     result = [-1] * len(nums)
     stack = []

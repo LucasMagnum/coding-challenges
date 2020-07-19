@@ -9,6 +9,7 @@ Nested expansions can happen, so 2[a2[b]c] should be expanded to abbcabbc.
 
 """
 
+
 def solution(string):
     result = ""
     i = 0
@@ -30,8 +31,10 @@ def solution(string):
 
         inner_string = ""
         while bracket > 0:
-            if string[i] == "[": bracket += 1
-            if string[i] == "]": bracket -= 1
+            if string[i] == "[":
+                bracket += 1
+            if string[i] == "]":
+                bracket -= 1
 
             inner_string += string[i]
             i += 1

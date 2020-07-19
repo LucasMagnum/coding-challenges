@@ -10,6 +10,7 @@ Since python strings are not mutable, you can assume the input will be a mutable
 
 """
 
+
 def solution(words):
     reverse(words, 0, len(words))
 
@@ -17,10 +18,10 @@ def solution(words):
     idx = 0
 
     while idx < len(words):
-        if words[idx] == ' ':
+        if words[idx] == " ":
             reverse(words, start, idx)
 
-            while idx + 1 < len(words) and words[idx + 1] == ' ':
+            while idx + 1 < len(words) and words[idx + 1] == " ":
                 idx += 1
 
             start = idx + 1
@@ -30,7 +31,7 @@ def solution(words):
 
 
 def reverse(s, start, end):
-    for i in range(0, (end - start)//2):
+    for i in range(0, (end - start) // 2):
         s[start + i], s[end - i - 1] = s[end - i - 1], s[start + i]
 
 

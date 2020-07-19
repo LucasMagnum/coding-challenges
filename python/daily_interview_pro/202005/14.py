@@ -13,6 +13,7 @@ Output: ['159.255.101.3', '159.255.10.13']
 
 """
 
+
 def solution(s, ip_parts=None):
     if ip_parts is None:
         ip_parts = []

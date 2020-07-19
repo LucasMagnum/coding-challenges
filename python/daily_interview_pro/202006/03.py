@@ -10,14 +10,23 @@ A postorder traversal is a traversal order where the left child always
 
 """
 
-class Node():
+
+class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value
         self.left = left
         self.right = right
 
     def __repr__(self):
-        return "(" + str(self.value) + ", " + self.left.__repr__() + ", " + self.right.__repr__() + ")"
+        return (
+            "("
+            + str(self.value)
+            + ", "
+            + self.left.__repr__()
+            + ", "
+            + self.right.__repr__()
+            + ")"
+        )
 
 
 def create_tree(postorder):

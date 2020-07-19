@@ -25,6 +25,7 @@ You can assume there will be no arrays, and all keys will be strings.
 
 """
 
+
 def flatten_dictionary(data):
     flatten_dict = {}
     helper(data, "", flatten_dict)
@@ -40,14 +41,6 @@ def helper(data, append_key, flatten_dict):
 
 
 if __name__ == "__main__":
-    d = {
-        'a': 1,
-        'b': {
-            'c': 2,
-            'd': {
-                'e': 3
-            }
-        }
-    }
+    d = {"a": 1, "b": {"c": 2, "d": {"e": 3}}}
     print(flatten_dictionary(d))
     # {'a': 1, 'b.c': 2, 'b.d.e': 3}

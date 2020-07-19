@@ -9,19 +9,19 @@ You should optimize for the sum method.
 
 """
 
+
 class ListFastSum:
-  def __init__(self, nums):
-    self.nums = nums
-    self.sums = []
+    def __init__(self, nums):
+        self.nums = nums
+        self.sums = []
 
-    sum_so_far = 0
-    for num in nums:
-        sum_so_far += num
-        self.sums.append(sum_so_far)
+        sum_so_far = 0
+        for num in nums:
+            sum_so_far += num
+            self.sums.append(sum_so_far)
 
-  def sum(self, start_idx, end_idx):
-      return self.sums[end_idx - 1] - self.sums[start_idx - 1]
-
+    def sum(self, start_idx, end_idx):
+        return self.sums[end_idx - 1] - self.sums[start_idx - 1]
 
 
 if __name__ == "__main__":

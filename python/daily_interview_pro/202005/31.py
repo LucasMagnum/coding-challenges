@@ -26,7 +26,7 @@ def min_window_to_sort(nums):
             upper_bound = i
 
     min_num = float("inf")
-    for i in range(len(nums) -1, -1, -1):
+    for i in range(len(nums) - 1, -1, -1):
         if nums[i] < min_num:
             min_num = nums[i]
 
@@ -34,7 +34,6 @@ def min_window_to_sort(nums):
             lower_bound = i
 
     return (lower_bound, upper_bound)
-
 
 
 if __name__ == "__main__":

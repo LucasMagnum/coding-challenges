@@ -21,7 +21,7 @@ def convert_to_int(string):
     is_negative = string.startswith("-")
     string = string[1:] if is_negative else string
 
-    ascii_zero = ord('0')
+    ascii_zero = ord("0")
 
     for char in string:
         if not char.isdigit():
@@ -32,5 +32,5 @@ def convert_to_int(string):
 
 
 if __name__ == "__main__":
-    print(convert_to_int('-105') + 1)
+    print(convert_to_int("-105") + 1)
     # -104

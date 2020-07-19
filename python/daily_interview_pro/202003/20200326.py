@@ -15,6 +15,7 @@ The following input should return 1.
 
 """
 
+
 def solution(string):
     opened = 0
     invalid = 0
@@ -27,7 +28,7 @@ def solution(string):
                 opened -= 1
             else:
                 invalid += 1
-    
+
     invalid += opened
     return invalid
 

@@ -40,4 +40,6 @@ def solution(n, m, i, j):
 
 if __name__ == "__main__":
     n, m, i, j = 1024, 19, 2, 6
-    print(f"Solution({bin(n)}, {bin(m)}, {i}, {j}) => 1100  ----->", solution(n, m, i, j))
+    print(
+        f"Solution({bin(n)}, {bin(m)}, {i}, {j}) => 1100  ----->", solution(n, m, i, j)
+    )

@@ -15,7 +15,7 @@ Furthermore, the integer does not have leading zeros, except in the case of the 
 def solution(numbers):
     carry = 1
 
-    for i in range(len(numbers) -1, -1, -1):
+    for i in range(len(numbers) - 1, -1, -1):
         new_number = numbers[i] + carry
         numbers[i], carry = new_number % 10, 1 if new_number >= 10 else 0
 

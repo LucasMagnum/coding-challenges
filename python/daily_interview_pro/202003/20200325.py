@@ -21,6 +21,7 @@ Output: 3
 
 """
 
+
 def solution(grid):
     if not grid or not grid[0]:
         return 0
@@ -70,9 +71,7 @@ def inRange(grid, r, c):
         return False
     return True
 
+
 if __name__ == "__main__":
-    grid = [[1, 1, 0, 0, 0],
-            [0, 1, 0, 0, 1],
-            [1, 0, 0, 1, 1],
-            [0, 0, 0, 0, 0]]
+    grid = [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [1, 0, 0, 1, 1], [0, 0, 0, 0, 0]]
     print(solution(grid))

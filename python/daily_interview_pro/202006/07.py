@@ -17,13 +17,14 @@ The equivalent expression of the above reverse polish notation would be
 
 """
 
+
 def solution(items):
     stack = []
     operands = {
-        "+": lambda a,b: a + b,
-        "-": lambda a,b: a - b,
-        "*": lambda a,b: a * b,
-        "/": lambda a,b: a / b,
+        "+": lambda a, b: a + b,
+        "-": lambda a, b: a - b,
+        "*": lambda a, b: a * b,
+        "/": lambda a, b: a / b,
     }
 
     for item in items:
@@ -34,6 +35,7 @@ def solution(items):
             stack.append(item)
 
     return stack[0]
+
 
 if __name__ == "__main__":
     print(solution([1, 2, 3, "+", 2, "*", "-"]))

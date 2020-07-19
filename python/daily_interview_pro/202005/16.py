@@ -45,24 +45,22 @@ class Node(object):
 
             if current_node.left:
                 to_visit.append((current_node.left, current_level + 1))
-            
+
             if current_node.right:
                 to_visit.append((current_node.right, current_level + 1))
-        
+
             result.append(current_node.val)
 
         return "".join(result)
 
 
-
-
 if __name__ == "__main__":
-    tree = Node('a')
-    tree.left = Node('b')
-    tree.right = Node('c')
-    tree.left.left = Node('d')
-    tree.left.right = Node('e')
-    tree.right.left = Node('f')
-    tree.right.right = Node('g')
+    tree = Node("a")
+    tree.left = Node("b")
+    tree.right = Node("c")
+    tree.left.left = Node("d")
+    tree.left.right = Node("e")
+    tree.right.left = Node("f")
+    tree.right.right = Node("g")
 
     print(tree)

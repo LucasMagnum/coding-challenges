@@ -7,6 +7,7 @@ Given a binary tree, find the level in the tree where the sum of all nodes on th
 
 """
 
+
 class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value

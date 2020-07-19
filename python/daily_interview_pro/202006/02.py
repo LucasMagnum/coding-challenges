@@ -7,7 +7,8 @@ Given two rectangles, find the area of intersection.
 
 """
 
-class Rectangle():
+
+class Rectangle:
     def __init__(self, min_x=0, min_y=0, max_x=0, max_y=0):
         self.min_x = min_x
         self.min_y = min_y

@@ -13,10 +13,11 @@ Assume that all numbers will be greater than or equal to 0, and each element can
 
 """
 
+
 def solution(numbers):
     if not numbers:
         return []
-    
+
     ranges = []
     low, high = numbers[0], numbers[0]
 

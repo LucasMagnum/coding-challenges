@@ -19,9 +19,9 @@ def solution(words):
 
     for word in words:
         groups["".join(sorted(word))].append(word)
-    
+
     return list(groups.values())
 
 
 if __name__ == "__main__":
-    print(solution(['abc', 'bcd', 'cba', 'cbd', 'efg']))
+    print(solution(["abc", "bcd", "cba", "cbd", "efg"]))

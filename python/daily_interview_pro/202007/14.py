@@ -12,6 +12,7 @@ Return both tree's root node as a tuple.
 
 """
 
+
 class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -39,7 +40,6 @@ def split_bst(bst, s):
         left, right = split_bst(bst.left, s)
         bst.left = right
         return left, bst
-
 
 
 if __name__ == "__main__":

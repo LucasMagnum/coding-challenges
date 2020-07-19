@@ -11,6 +11,7 @@ Here are the rules:
 
 """
 
+
 class Node:
     def __init__(self, value, left=None, right=None):
         self.value = value
@@ -19,7 +20,6 @@ class Node:
 
     def __repr__(self):
         return f"value: {self.value}, left: ({self.left.__repr__()}), right: ({self.right.__repr__()})"
-
 
 
 def filter(tree, k):

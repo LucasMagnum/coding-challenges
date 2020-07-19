@@ -15,6 +15,7 @@ As seen above, every number is at most 2 indexes away from its proper sorted ind
 
 import heapq
 
+
 def solution(array, k):
     heap = []
     ordered_array = []

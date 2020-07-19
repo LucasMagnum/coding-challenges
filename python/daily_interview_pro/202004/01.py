@@ -9,6 +9,7 @@ For example, an input of [1, 2, 3, 4, 5] should return [120, 60, 40, 30, 24].
 
 """
 
+
 def solution(array):
     prefix_products = []
     for num in array:
@@ -16,7 +17,7 @@ def solution(array):
             prefix_products.append(prefix_products[-1] * num)
         else:
             prefix_products.append(num)
-    
+
     suffix_products = []
     for num in reversed(array):
         if suffix_products:

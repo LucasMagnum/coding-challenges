@@ -10,10 +10,11 @@ A = abcde, B = cdeab should return true because A can be shifted 3 times to the 
 A = abc and B= acb should return false.
 """
 
+
 def solution(first, second):
     if len(first) != len(second):
         return False
-    
+
     return second in first + first
 
 

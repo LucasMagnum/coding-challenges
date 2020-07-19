@@ -35,7 +35,7 @@ def dup_trees(root):
 
 def serialize_all(root, subtree_counter, dup_list):
     if root is None:
-        return ''
+        return ""
 
     left = serialize_all(root.left, subtree_counter, dup_list)
     right = serialize_all(root.right, subtree_counter, dup_list)

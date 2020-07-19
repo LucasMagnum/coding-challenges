@@ -26,10 +26,12 @@ def check_balanced(node):
         return 0
 
     left_height = check_balanced(node.left)
-    if left_height == -1: return -1
+    if left_height == -1:
+        return -1
 
     right_height = check_balanced(node.right)
-    if right_height == -1: return -1
+    if right_height == -1:
+        return -1
 
     if abs(check_balanced(node.left) - check_balanced(node.right)) > 1:
         return -1
@@ -51,7 +53,6 @@ if __name__ == "__main__":
 
     print(is_height_balanced(n1))
     # True
-
 
     #     1
     #    /
