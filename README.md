@@ -557,5 +557,19 @@ Examples:
     [Python](./python/daily_interview_pro/202007/18.py)
 * Remove Character to Create Palindrome
     [Python](./python/daily_interview_pro/202007/19.py)
+* Number of Meeting Rooms
+    [Python](./python/daily_interview_pro/202007/20.py)
+* Convert Fraction to Decimal
+    [Python](./python/daily_interview_pro/202007/21.py)
+* Primes
+    [Python](./python/daily_interview_pro/202007/22.py)
+* Convert to Hexadecimal
+    [Python](./python/daily_interview_pro/202007/23.py)
+* Multiply
+    [Python](./python/daily_interview_pro/202007/24.py)
+* Remove Adjacent Duplicate Characters
+    [Python](./python/daily_interview_pro/202007/25.py)
+* Common characters
+    [Python](./python/daily_interview_pro/202007/26.py)
 
 
