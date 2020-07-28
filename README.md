@@ -573,6 +573,8 @@ Examples:
     [Python](./python/daily_interview_pro/202007/26.py)
 * Transpose Matrix
     [Python](./python/daily_interview_pro/202007/27.py)
+* Intersection of Lists
+    [Python](./python/daily_interview_pro/202007/28.py)
 
 
 
