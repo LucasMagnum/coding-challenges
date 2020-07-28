@@ -571,5 +571,8 @@ Examples:
     [Python](./python/daily_interview_pro/202007/25.py)
 * Common characters
     [Python](./python/daily_interview_pro/202007/26.py)
+* Transpose Matrix
+    [Python](./python/daily_interview_pro/202007/27.py)
+
 
 
