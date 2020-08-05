@@ -575,6 +575,15 @@ Examples:
     [Python](./python/daily_interview_pro/202007/27.py)
 * Intersection of Lists
     [Python](./python/daily_interview_pro/202007/28.py)
+* Minimum Number of Operations
+    [Python](./python/daily_interview_pro/202007/29.py)
+* Shortest Distance to Character
+    [Python](./python/daily_interview_pro/202007/30.py)
+* Pascal's Triangle
+    [Python](./python/daily_interview_pro/202007/31.py)
+
+
+
 
 
 
