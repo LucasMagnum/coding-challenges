@@ -582,8 +582,16 @@ Examples:
 * Pascal's Triangle
     [Python](./python/daily_interview_pro/202007/31.py)
 
+##### August
 
-
-
-
+* Closest to 3 Sum
+    [Python](./python/daily_interview_pro/202008/01.py)
+* Sum Binary Numbers
+    [Python](./python/daily_interview_pro/202008/02.py)
+* Reshaping Matrix
+    [Python](./python/daily_interview_pro/202008/03.py)
+* Reverse Integer
+    [Python](./python/daily_interview_pro/202008/04.py)
+* Decimal to Roman
+    [Python](./python/daily_interview_pro/202008/05.py)
 
