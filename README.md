@@ -594,4 +594,15 @@ Examples:
     [Python](./python/daily_interview_pro/202008/04.py)
 * Decimal to Roman
     [Python](./python/daily_interview_pro/202008/05.py)
+* Longest Common Prefix
+    [Python](./python/daily_interview_pro/202008/06.py)
+* Decimal to Roman
+    [Python](./python/daily_interview_pro/202008/07.py)
+* Decimal to Roman
+    [Python](./python/daily_interview_pro/202008/08.py)
+* Decimal to Roman
+    [Python](./python/daily_interview_pro/202008/09.py)
+* Decimal to Roman
+    [Python](./python/daily_interview_pro/202008/10.py)
+
 
