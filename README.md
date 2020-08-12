@@ -596,13 +596,16 @@ Examples:
     [Python](./python/daily_interview_pro/202008/05.py)
 * Longest Common Prefix
     [Python](./python/daily_interview_pro/202008/06.py)
-* Decimal to Roman
+* 4 Sum
     [Python](./python/daily_interview_pro/202008/07.py)
-* Decimal to Roman
+* Generate Brackets
     [Python](./python/daily_interview_pro/202008/08.py)
-* Decimal to Roman
+* Remove Duplicates From Sorted List
     [Python](./python/daily_interview_pro/202008/09.py)
-* Decimal to Roman
+*  Unique Sum Combinations
     [Python](./python/daily_interview_pro/202008/10.py)
+* Range Searching in a Sorted List
+    [Python](./python/daily_interview_pro/202008/11.py)
+
 
 
