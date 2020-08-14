@@ -606,6 +606,17 @@ Examples:
     [Python](./python/daily_interview_pro/202008/10.py)
 * Range Searching in a Sorted List
     [Python](./python/daily_interview_pro/202008/11.py)
+* Minimum Depth of Binary Tree
+    [Python](./python/daily_interview_pro/202008/12.py)
+* Target Sum from Root to Leaf
+    [Python](./python/daily_interview_pro/202008/13.py)
+* Majority Element
+    [Python](./python/daily_interview_pro/202008/14.py)
+
+
+
+
+
 
 
 
