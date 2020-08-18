@@ -616,7 +616,8 @@ Examples:
     [Python](./python/daily_interview_pro/202008/15.py)
 * Maximum Non Adjacent Sum
     [Python](./python/daily_interview_pro/202008/16.py)
-
+* Searching a Matrix
+    [Python](./python/daily_interview_pro/202008/17.py)
 
 
 
