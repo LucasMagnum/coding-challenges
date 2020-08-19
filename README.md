@@ -618,7 +618,8 @@ Examples:
     [Python](./python/daily_interview_pro/202008/16.py)
 * Searching a Matrix
     [Python](./python/daily_interview_pro/202008/17.py)
-
+* Generate all subsets
+    [Python](./python/daily_interview_pro/202008/18.py)
 
 
 
