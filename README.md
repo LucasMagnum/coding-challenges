@@ -624,9 +624,14 @@ Examples:
     [Python](./python/daily_interview_pro/202008/19.py)
 * Root to leaf numbers summed
     [Python](./python/daily_interview_pro/202008/20.py)
-
-
-
+* Deep Copy Graph
+    [Python](./python/daily_interview_pro/202008/21.py)
+* LRU Cache
+    [Python](./python/daily_interview_pro/202008/22.py)
+* Concatenated Words
+    [Python](./python/daily_interview_pro/202008/23.py)
+* Find the K-th Largest Number
+    [Python](./python/daily_interview_pro/202008/24.py)
 
 
 
