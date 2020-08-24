@@ -620,6 +620,10 @@ Examples:
     [Python](./python/daily_interview_pro/202008/17.py)
 * Generate all subsets
     [Python](./python/daily_interview_pro/202008/18.py)
+* Flatten Binary Tree
+    [Python](./python/daily_interview_pro/202008/19.py)
+* Root to leaf numbers summed
+    [Python](./python/daily_interview_pro/202008/20.py)
 
 
 
