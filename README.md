@@ -632,6 +632,8 @@ Examples:
     [Python](./python/daily_interview_pro/202008/23.py)
 * Find the K-th Largest Number
     [Python](./python/daily_interview_pro/202008/24.py)
+* Word Concatenation
+    [Python](./python/daily_interview_pro/202008/25.py)
 
 
 
