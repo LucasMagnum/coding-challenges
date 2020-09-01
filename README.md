@@ -634,6 +634,19 @@ Examples:
     [Python](./python/daily_interview_pro/202008/24.py)
 * Word Concatenation
     [Python](./python/daily_interview_pro/202008/25.py)
+* Connected colors in a grid
+    [Python](./python/daily_interview_pro/202008/26.py)
+* Autocompletion
+    [Python](./python/daily_interview_pro/202008/27.py)
+* Ransom Note
+    [Python](./python/daily_interview_pro/202008/28.py)
+* Ransom Note
+    [Python](./python/daily_interview_pro/202008/29.py)
+* Clone Trees
+    [Python](./python/daily_interview_pro/202008/30.py)
+* Perfect Number
+    [Python](./python/daily_interview_pro/202008/31.py)
+
 
 
 
