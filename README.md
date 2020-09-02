@@ -647,6 +647,10 @@ Examples:
 * Perfect Number
     [Python](./python/daily_interview_pro/202008/31.py)
 
+##### September
 
-
+* Add Digits
+    [Python](./python/daily_interview_pro/202009/01.py)
+* Find Duplicates
+    [Python](./python/daily_interview_pro/202009/02.py)
 
