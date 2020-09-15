@@ -653,4 +653,15 @@ Examples:
     [Python](./python/daily_interview_pro/202009/01.py)
 * Find Duplicates
     [Python](./python/daily_interview_pro/202009/02.py)
-
+* Leaf-Similar Trees
+    [Python](./python/daily_interview_pro/202009/03.py)
+* Valid Mountain Array
+    [Python](./python/daily_interview_pro/202009/04.py)
+* Array to Binary Search Tree
+    [Python](./python/daily_interview_pro/202009/05.py)
+* Array to Binary Search Tree
+    [Python](./python/daily_interview_pro/202009/06.py)
+* Remove duplicates from Linked List
+    [Python](./python/daily_interview_pro/202009/07.py)
+* Array of equal parts
+    [Python](./python/daily_interview_pro/202009/08.py)
