@@ -665,3 +665,11 @@ Examples:
     [Python](./python/daily_interview_pro/202009/07.py)
 * Array of equal parts
     [Python](./python/daily_interview_pro/202009/08.py)
+* Iterative In-Order Tree
+    [Python](./python/daily_interview_pro/202009/09.py)
+* Palindrome Integers
+    [Python](./python/daily_interview_pro/202009/10.py)
+* Find Duplicates
+    [Python](./python/daily_interview_pro/202009/11.py)
+* Palindrome Integers
+    [Python](./python/daily_interview_pro/202009/12.py)
