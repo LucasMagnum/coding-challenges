@@ -673,3 +673,33 @@ Examples:
     [Python](./python/daily_interview_pro/202009/11.py)
 * Palindrome Integers
     [Python](./python/daily_interview_pro/202009/12.py)
+* ZigZag Binary Tree
+    [Python](./python/daily_interview_pro/202009/13.py)
+* Longest Substring Without Repeating Characters
+    [Python](./python/daily_interview_pro/202009/14.py)
+* Reconstrunct Binary Tree from Preorder and Inorder Traversals
+    [Python](./python/daily_interview_pro/202009/15.py)
+* Inorder Successor
+    [Python](./python/daily_interview_pro/202009/16.py)
+* Pascal's Triangle
+    [Python](./python/daily_interview_pro/202009/17.py)
+* Level of tree with Maximum Sum
+    [Python](./python/daily_interview_pro/202009/18.py)
+* Deepest Node in a Binary Tree
+    [Python](./python/daily_interview_pro/202009/19.py)
+* Common Characters
+    [Python](./python/daily_interview_pro/202009/20.py)
+* Minimum Size Subarray Sum
+    [Python](./python/daily_interview_pro/202009/21.py)
+* Spiral Traversal of Grid
+    [Python](./python/daily_interview_pro/202009/22.py)
+* Reverse Polish Notation Calculator
+    [Python](./python/daily_interview_pro/202009/23.py)
+* Generate All IP Addresses
+    [Python](./python/daily_interview_pro/202009/24.py)
+* Add two numbers as a linked list
+    [Python](./python/daily_interview_pro/202009/25.py)
+* Closest to 3 Sum
+    [Python](./python/daily_interview_pro/202009/26.py)
+* Add Digits
+    [Python](./python/daily_interview_pro/202009/27.py)
