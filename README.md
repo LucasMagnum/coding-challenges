@@ -703,3 +703,5 @@ Examples:
     [Python](./python/daily_interview_pro/202009/26.py)
 * Add Digits
     [Python](./python/daily_interview_pro/202009/27.py)
+* Valid Mountain Array
+    [Python](./python/daily_interview_pro/202009/28.py)
