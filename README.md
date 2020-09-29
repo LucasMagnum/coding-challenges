@@ -705,3 +705,5 @@ Examples:
     [Python](./python/daily_interview_pro/202009/27.py)
 * Valid Mountain Array
     [Python](./python/daily_interview_pro/202009/28.py)
+*  H-Index
+    [Python](./python/daily_interview_pro/202009/29.py)
