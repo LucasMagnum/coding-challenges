@@ -707,3 +707,5 @@ Examples:
     [Python](./python/daily_interview_pro/202009/28.py)
 *  H-Index
     [Python](./python/daily_interview_pro/202009/29.py)
+*  Remove Character to Create Palindrom
+    [Python](./python/daily_interview_pro/202009/30.py)
