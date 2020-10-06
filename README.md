@@ -709,3 +709,17 @@ Examples:
     [Python](./python/daily_interview_pro/202009/29.py)
 *  Remove Character to Create Palindrom
     [Python](./python/daily_interview_pro/202009/30.py)
+
+##### October
+*  Trapping Rainwater
+    [Python](./python/daily_interview_pro/202010/01.py)
+*  First and Last Indices of an Element in a Sorted Array
+    [Python](./python/daily_interview_pro/202010/02.py)
+*  Remove duplicates from Linked List
+    [Python](./python/daily_interview_pro/202010/03.py)
+*  Longest common prefix
+    [Python](./python/daily_interview_pro/202010/04.py)
+*  Remove k-th Last Element From Linked List
+    [Python](./python/daily_interview_pro/202010/05.py)
+*  Intersection of Linked Lists
+    [Python](./python/daily_interview_pro/202010/06.py)
