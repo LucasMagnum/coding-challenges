@@ -705,9 +705,9 @@ Examples:
     [Python](./python/daily_interview_pro/202009/27.py)
 * Valid Mountain Array
     [Python](./python/daily_interview_pro/202009/28.py)
-*  H-Index
+* H-Index
     [Python](./python/daily_interview_pro/202009/29.py)
-*  Remove Character to Create Palindrom
+* Remove Character to Create Palindrom
     [Python](./python/daily_interview_pro/202009/30.py)
 
 ##### October
@@ -717,9 +717,23 @@ Examples:
     [Python](./python/daily_interview_pro/202010/02.py)
 *  Remove duplicates from Linked List
     [Python](./python/daily_interview_pro/202010/03.py)
-*  Longest common prefix
+* Longest common prefix
     [Python](./python/daily_interview_pro/202010/04.py)
-*  Remove k-th Last Element From Linked List
+* Remove k-th Last Element From Linked List
     [Python](./python/daily_interview_pro/202010/05.py)
-*  Intersection of Linked Lists
+* Intersection of Linked Lists
     [Python](./python/daily_interview_pro/202010/06.py)
+* Find the K-th Largest Number
+    [Python](./python/daily_interview_pro/202010/07.py)
+* Generate all subsets
+    [Python](./python/daily_interview_pro/202010/08.py)
+* UTF-8 Validator
+    [Python](./python/daily_interview_pro/202010/09.py)
+* Pascal's Triangle
+    [Python](./python/daily_interview_pro/202010/10.py)
+* Three Equal Sums
+    [Python](./python/daily_interview_pro/202010/11.py)
+* Subarray With Target Sum
+    [Python](./python/daily_interview_pro/202010/12.py)
+* Concatenated Words
+    [Python](./python/daily_interview_pro/202010/13.py)
