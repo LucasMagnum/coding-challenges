@@ -737,3 +737,19 @@ Examples:
     [Python](./python/daily_interview_pro/202010/12.py)
 * Concatenated Words
     [Python](./python/daily_interview_pro/202010/13.py)
+* Remove Consecutive Nodes that Sum to 0
+    [Python](./python/daily_interview_pro/202010/14.py)
+* First recurring character
+    [Python](./python/daily_interview_pro/202010/15.py)
+* LRU Cache
+    [Python](./python/daily_interview_pro/202010/16.py)
+* Remove Consecutive Nodes that Sum to 0
+    [Python](./python/daily_interview_pro/202010/17.py)
+* Sum of Squares
+    [Python](./python/daily_interview_pro/202010/18.py)
+* Merge Overlapping Intervals
+    [Python](./python/daily_interview_pro/202010/19.py)
+* Reconstrunct Binary Tree from Preorder and Inorder Traversals
+    [Python](./python/daily_interview_pro/202010/20.py)
+* Sort Colors
+    [Python](./python/daily_interview_pro/202010/21.py)

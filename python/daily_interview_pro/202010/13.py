@@ -32,7 +32,5 @@ def can_form(word, word_dict, cache, depth = 0):
     return False
 
 
-
-
 if __name__ == "__main__":
     print(solution(["tech", "lead", "techlead", "cat", "cats", "dog", "catsdog"]))
