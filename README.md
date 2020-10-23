@@ -753,3 +753,5 @@ Examples:
     [Python](./python/daily_interview_pro/202010/20.py)
 * Sort Colors
     [Python](./python/daily_interview_pro/202010/21.py)
+* Find the Single Element in an Array of Duplicates
+    [Python](./python/daily_interview_pro/202010/22.py)
