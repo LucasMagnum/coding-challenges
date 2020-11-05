@@ -755,3 +755,17 @@ Examples:
     [Python](./python/daily_interview_pro/202010/21.py)
 * Find the Single Element in an Array of Duplicates
     [Python](./python/daily_interview_pro/202010/22.py)
+* Number of Meeting Rooms
+    [Python](./python/daily_interview_pro/202010/23.py)
+* Create a balanced binary search tree
+    [Python](./python/daily_interview_pro/202010/24.py)
+* Autocompletion
+    [Python](./python/daily_interview_pro/202010/25.py)
+* Intersection of Linked Lists
+    [Python](./python/daily_interview_pro/202010/26.py)
+* Validate Binary Search Tree
+    [Python](./python/daily_interview_pro/202010/27.py)
+* Maximum Non Adjacent Sum
+    [Python](./python/daily_interview_pro/202010/28.py)
+* Merge Overlapping Intervals
+    [Python](./python/daily_interview_pro/202010/31.py)
