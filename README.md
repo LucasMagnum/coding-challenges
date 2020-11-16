@@ -56,13 +56,6 @@ Answers will be implemented in many languages:
 * Loop detector
     [Python](./python/linked_lists/question_2_8.py)
 
-
-Examples:
-    fast, slow runner
-    reversing a list
-    running a list
-
-
 ### Stacks and Queues
 
 #### Solutions
@@ -162,7 +155,6 @@ Examples:
     [Python](./python/dynamic_programming/examples/fibonacci_memoization.py)
 * Fibonacci (Memoization/Bottom Up)
     [Python](./python/dynamic_programming/examples/fibonacci_bottom_up.py)
-
 
 
 ### C and C++
@@ -767,5 +759,43 @@ Examples:
     [Python](./python/daily_interview_pro/202010/27.py)
 * Maximum Non Adjacent Sum
     [Python](./python/daily_interview_pro/202010/28.py)
+* Find Closest Points
+    [Python](./python/daily_interview_pro/202010/29.py)
+* First Missing Positive Integer
+    [Python](./python/daily_interview_pro/202010/30.py)
 * Merge Overlapping Intervals
     [Python](./python/daily_interview_pro/202010/31.py)
+
+##### November
+* Spiral Traversal of Grid
+    [Python](./python/daily_interview_pro/202011/01.py)
+* Compare Version Numbers
+    [Python](./python/daily_interview_pro/202011/02.py)
+* Remove Consecutive Nodes that Sum to 0
+    [Python](./python/daily_interview_pro/202011/03.py)
+* Remove Duplicate from Linked List
+    [Python](./python/daily_interview_pro/202011/04.py)
+* Generate Brackets
+    [Python](./python/daily_interview_pro/202011/05.py)
+* Spiral Traversal of Grid
+    [Python](./python/daily_interview_pro/202011/06.py)
+* Maximum In A Stack
+    [Python](./python/daily_interview_pro/202011/07.py)
+* Count Number of Unival Subtrees
+    [Python](./python/daily_interview_pro/202011/08.py)
+* Move Zeros
+    [Python](./python/daily_interview_pro/202011/09.py)
+* Multitasking
+    [Python](./python/daily_interview_pro/202011/10.py)
+* Course Prerequisites
+    [Python](./python/daily_interview_pro/202011/11.py)
+* Compare Version Numbers
+    [Python](./python/daily_interview_pro/202011/12.py)
+* Missing Ranges
+    [Python](./python/daily_interview_pro/202011/13.py)
+* Kaprekar's Constant
+    [Python](./python/daily_interview_pro/202011/14.py)
+* Nearest Points
+    [Python](./python/daily_interview_pro/202011/15.py)
+* Fixed Point
+    [Python](./python/daily_interview_pro/202011/16.py)
