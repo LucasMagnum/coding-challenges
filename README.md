@@ -803,3 +803,5 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202011/17.py)
 * Reshaping Matrix
     [Python](./python/daily_interview_pro/202011/18.py)
+* H-Index
+    [Python](./python/daily_interview_pro/202011/19.py)
