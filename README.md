@@ -827,3 +827,55 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202011/29.py)
 * Merge Overlapping Intervals
     [Python](./python/daily_interview_pro/202011/30.py)
+
+##### December
+* 3 Sum
+    [Python](./python/daily_interview_pro/202012/01.py)
+* String Compression
+    [Python](./python/daily_interview_pro/202012/02.py)
+* Duplicate Subtrees
+    [Python](./python/daily_interview_pro/202012/03.py)
+* Find subtree
+    [Python](./python/daily_interview_pro/202012/04.py)
+* Fix Brackets
+    [Python](./python/daily_interview_pro/202012/05.py)
+* Validate Binary Search Tree
+    [Python](./python/daily_interview_pro/202012/06.py)
+* Queue Using Two Stacks
+    [Python](./python/daily_interview_pro/202012/07.py)
+* Look and Say Sequence
+    [Python](./python/daily_interview_pro/202012/08.py)
+* Palindrome Integers
+    [Python](./python/daily_interview_pro/202012/09.py)
+* Compare Version Numbers
+    [Python](./python/daily_interview_pro/202012/10.py)
+* Rotate Matrix
+    [Python](./python/daily_interview_pro/202012/11.py)
+* Transpose Matrix
+    [Python](./python/daily_interview_pro/202012/12.py)
+* Merge List Of Number Into Ranges
+    [Python](./python/daily_interview_pro/202012/14.py)
+* Largest Path Sum from Root To Leaf
+    [Python](./python/daily_interview_pro/202012/16.py)
+* Generate Brackets
+    [Python](./python/daily_interview_pro/202012/17.py)
+* First recurring character
+    [Python](./python/daily_interview_pro/202012/18.py)
+* Find the K-th Largest Number
+    [Python](./python/daily_interview_pro/202012/19.py)
+* Flatten Dictionary
+    [Python](./python/daily_interview_pro/202012/20.py)
+* Longest Substring Without Repeating Characters
+    [Python](./python/daily_interview_pro/202012/22.py)
+* Binary Tree Level with Minimum Sum
+    [Python](./python/daily_interview_pro/202012/23.py)
+* Invert a Binary Tree
+    [Python](./python/daily_interview_pro/202012/25.py)
+* Circle of Chained Words
+    [Python](./python/daily_interview_pro/202012/26.py)
+* Top K Frequent words
+    [Python](./python/daily_interview_pro/202012/27.py)
+* Look and Say Sequence
+    [Python](./python/daily_interview_pro/202012/28.py)
+* Buddy Strings
+    [Python](./python/daily_interview_pro/202012/29.py)
