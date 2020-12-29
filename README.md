@@ -805,3 +805,25 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202011/18.py)
 * H-Index
     [Python](./python/daily_interview_pro/202011/19.py)
+* Array to Binary Search Tree
+    [Python](./python/daily_interview_pro/202011/20.py)
+* Find Closest Points
+    [Python](./python/daily_interview_pro/202011/21.py)
+* Duplicate Subtrees
+    [Python](./python/daily_interview_pro/202011/22.py)
+* Staying on a Chess Board
+    [Python](./python/daily_interview_pro/202011/23.py)
+* 3 Sum
+    [Python](./python/daily_interview_pro/202011/24.py)
+* Find the k-th Largest Element in a List
+    [Python](./python/daily_interview_pro/202011/25.py)
+* Remove Duplicate from Linked List
+    [Python](./python/daily_interview_pro/202011/26.py)
+* First recurring character
+    [Python](./python/daily_interview_pro/202011/27.py)
+* Convert Fraction to Decimal
+    [Python](./python/daily_interview_pro/202011/28.py)
+* Running Median
+    [Python](./python/daily_interview_pro/202011/29.py)
+* Merge Overlapping Intervals
+    [Python](./python/daily_interview_pro/202011/30.py)
