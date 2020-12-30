@@ -883,3 +883,5 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202012/28.py)
 * Buddy Strings
     [Python](./python/daily_interview_pro/202012/29.py)
+* Staying on a Chess Board
+    [Python](./python/daily_interview_pro/202012/30.py)
