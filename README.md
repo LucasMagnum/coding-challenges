@@ -853,8 +853,12 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202012/11.py)
 * Transpose Matrix
     [Python](./python/daily_interview_pro/202012/12.py)
+* Closest to 3 Sum
+    [Python](./python/daily_interview_pro/202012/13.py)
 * Merge List Of Number Into Ranges
     [Python](./python/daily_interview_pro/202012/14.py)
+* Number of Cousins
+    [Python](./python/daily_interview_pro/202012/15.py)
 * Largest Path Sum from Root To Leaf
     [Python](./python/daily_interview_pro/202012/16.py)
 * Generate Brackets
