@@ -869,10 +869,14 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202012/19.py)
 * Flatten Dictionary
     [Python](./python/daily_interview_pro/202012/20.py)
+* Create a Simple Calculator
+    [Python](./python/daily_interview_pro/202012/21.py)
 * Longest Substring Without Repeating Characters
     [Python](./python/daily_interview_pro/202012/22.py)
 * Binary Tree Level with Minimum Sum
     [Python](./python/daily_interview_pro/202012/23.py)
+* Deep Copy Graph
+    [Python](./python/daily_interview_pro/202012/24.py)
 * Invert a Binary Tree
     [Python](./python/daily_interview_pro/202012/25.py)
 * Circle of Chained Words
@@ -885,3 +889,5 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/202012/29.py)
 * Staying on a Chess Board
     [Python](./python/daily_interview_pro/202012/30.py)
+* Min Range Needed to Sort
+    [Python](./python/daily_interview_pro/202012/31.py)
