@@ -898,4 +898,11 @@ Answers will be implemented in many languages:
 
 * Convert to Hexadecimal
     [Python](./python/daily_interview_pro/2021/01/01.py)
+* Full Binary Tree
+    [Python](./python/daily_interview_pro/2021/01/02.py)
+* City Skyline
+    [Python](./python/daily_interview_pro/2021/01/03.py)
+* City Skyline
+    [Python](./python/daily_interview_pro/2021/01/04.py)
+
 
