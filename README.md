@@ -904,5 +904,7 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/2021/01/03.py)
 * Reconstrunct Binary Tree from Preorder and Inorder Traversals
     [Python](./python/daily_interview_pro/2021/01/04.py)
+* Number of Ways to Climb Stairs
+    [Python](./python/daily_interview_pro/2021/01/05.py)
 
 
