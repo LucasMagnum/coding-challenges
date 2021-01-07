@@ -9,7 +9,6 @@ You should optimize for the sum method.
 
 """
 
-
 class ListFastSum:
     def __init__(self, nums):
         self.nums = nums

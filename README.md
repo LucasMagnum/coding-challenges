@@ -908,5 +908,7 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/2021/01/05.py)
 * Optimized List Sum
     [Python](./python/daily_interview_pro/2021/01/06.py)
+* Permutations of numbers
+    [Python](./python/daily_interview_pro/2021/01/07.py)
 
 
