@@ -906,5 +906,7 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/2021/01/04.py)
 * Number of Ways to Climb Stairs
     [Python](./python/daily_interview_pro/2021/01/05.py)
+* Optimized List Sum
+    [Python](./python/daily_interview_pro/2021/01/06.py)
 
 
