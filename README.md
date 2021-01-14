@@ -910,5 +910,17 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/2021/01/06.py)
 * Permutations of numbers
     [Python](./python/daily_interview_pro/2021/01/07.py)
-
-
+* Find subtree
+    [Python](./python/daily_interview_pro/2021/01/08.py)
+* Find Cycles in a Graph
+    [Python](./python/daily_interview_pro/2021/01/09.py)
+* No Adjacent Repeating Characters
+    [Python](./python/daily_interview_pro/2021/01/10.py)
+* Sort Colors
+    [Python](./python/daily_interview_pro/2021/01/11.py)
+* Convert Fraction to Decimal
+    [Python](./python/daily_interview_pro/2021/01/12.py)
+* Validate Balanced Parentheses
+    [Python](./python/daily_interview_pro/2021/01/13.py)
+* Multiply
+    [Python](./python/daily_interview_pro/2021/01/14.py)
