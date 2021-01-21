@@ -924,3 +924,9 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/2021/01/13.py)
 * Multiply
     [Python](./python/daily_interview_pro/2021/01/14.py)
+* Remove Character to Create Palindrome
+    [Python](./python/daily_interview_pro/2021/01/15.py)
+* Maximum Profit From Stocks
+    [Python](./python/daily_interview_pro/2021/01/18.py)
+* Distribute Bonuses
+    [Python](./python/daily_interview_pro/2021/01/19.py)
