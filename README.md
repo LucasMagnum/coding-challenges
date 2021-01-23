@@ -930,3 +930,9 @@ Answers will be implemented in many languages:
     [Python](./python/daily_interview_pro/2021/01/18.py)
 * Distribute Bonuses
     [Python](./python/daily_interview_pro/2021/01/19.py)
+* Validate Binary Search Tree
+    [Python](./python/daily_interview_pro/2021/01/21.py)
+* Detect Linked List Cycle
+    [Python](./python/daily_interview_pro/2021/01/22.py)
+* Duplicate Subtrees
+    [Python](./python/daily_interview_pro/2021/01/23.py)
